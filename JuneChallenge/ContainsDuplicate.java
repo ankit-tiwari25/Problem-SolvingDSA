@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 // 217. [Easy] Contains Duplicate
-// 09 June 2024
+// 
 public class ContainsDuplicate {
     public static void main(String[] args) {
         int[] nums = {1,2,3,1};
