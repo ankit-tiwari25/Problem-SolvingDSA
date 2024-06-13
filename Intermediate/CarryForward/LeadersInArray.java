@@ -8,10 +8,10 @@ public class LeadersInArray {
     }
     public static int leadersInArray(int[] arr){
         int n = arr.length;
-        int count = 0;
-        int max = Integer.MIN_VALUE;
+        int count = 1;
+        int max = arr[n-1];
 
-        for(int i = n - 1; i >= 0; i--){
+        for(int i = n - 2; i >= 0; i--){
             if(arr[i] > max){
                 max = arr[i];
                 count++;
