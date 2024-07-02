@@ -1,5 +1,6 @@
 package JulyChallenge;
 // 1550. [Easy] Three Consecutive Odds
+// 1 July 2024
 //Sliding Window
 public class ThreeConsecutiveOdds {
     public static void main(String[] args) {
