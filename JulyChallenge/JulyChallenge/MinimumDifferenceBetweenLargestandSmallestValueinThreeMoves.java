@@ -2,6 +2,7 @@ package JulyChallenge;
 
 import java.util.Arrays;
 // 1509. [Medium] Minimum Difference Between Largest and Smallest Value in Three Moves
+//Matchematics
 public class MinimumDifferenceBetweenLargestandSmallestValueinThreeMoves {
     public static void main(String[] args) {
         int[] nums = {5,3,2,4};
