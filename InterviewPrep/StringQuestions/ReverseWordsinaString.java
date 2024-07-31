@@ -31,8 +31,6 @@ public class ReverseWordsinaString {
                 str[r] = str[i];
                 r++;
                 i++;
-            }else{
-                
             }
         }
 
