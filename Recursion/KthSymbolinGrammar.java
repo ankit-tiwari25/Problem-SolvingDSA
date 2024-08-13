@@ -1,5 +1,5 @@
 package Recursion;
-// 779. K-th Symbol in Grammar
+// 779. [Medium] K-th Symbol in Grammar
 // Recursion
 /*  0 -> 0 1
     1 -> 1 0
