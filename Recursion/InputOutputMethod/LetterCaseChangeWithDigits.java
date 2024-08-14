@@ -3,7 +3,7 @@ package Recursion.InputOutputMethod;
 import java.util.ArrayList;
 import java.util.List;
 
-// Letter case change with Digits - Video 17 (Aditya Verma Recursion Series)
+// Letter case change with Digits - Video 16 (Aditya Verma Recursion Series)
 /*
  *   String input = a1B2
  *    output = { a1B2, A1B2, a1b2, A1b2}
