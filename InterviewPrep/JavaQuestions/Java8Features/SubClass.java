@@ -44,10 +44,10 @@ class VehicleException extends Exception {
     }
 }
  
-class CarException extends VehicleException {
-    String str;
-    public CarException(String str)
-    {
-        System.out.println("Thrown Car Exception For : "+str);
-    }
-}
+// class CarException extends VehicleException {
+//     String str;
+//     public CarException(String str)
+//     {
+//         System.out.println("Thrown Car Exception For : "+str);
+//     }
+// }
