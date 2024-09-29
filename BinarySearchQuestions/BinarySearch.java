@@ -1,6 +1,6 @@
 package BinarySearchQuestions;
 /*
- * Binary Search Playlist
+ * Binary Search Playlist 
  */
 public class BinarySearch {
     public static void main(String[] args) {
