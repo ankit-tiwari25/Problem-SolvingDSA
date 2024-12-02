@@ -1,0 +1,1120 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ThriceTwoUnique",
+            "request": "launch",
+            "mainClass": "Advance.AdvanceDSA1.BitManipulation.ThriceTwoUnique",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ThriceUnique",
+            "request": "launch",
+            "mainClass": "Advance.AdvanceDSA1.BitManipulation.ThriceUnique",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "TwoMissingElements",
+            "request": "launch",
+            "mainClass": "Advance.AdvanceDSA1.BitManipulation.TwoMissingElements",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindElementInSortedMatrix",
+            "request": "launch",
+            "mainClass": "Advance.AdvanceDSA1.InterviewProblems.FindElementInSortedMatrix",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FirstMissingNo",
+            "request": "launch",
+            "mainClass": "Advance.AdvanceDSA1.InterviewProblems.FirstMissingNo",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "UniqueElements",
+            "request": "launch",
+            "mainClass": "Advance.AdvanceDSA2.QuickSort.UniqueElements",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "CountSort",
+            "request": "launch",
+            "mainClass": "Advance.AdvanceDSA2.RadixSort.CountSort",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "LemonadeChange",
+            "request": "launch",
+            "mainClass": "AugustChallenge.LemonadeChange",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "NumberofSeniorCitizens",
+            "request": "launch",
+            "mainClass": "AugustChallenge.NumberofSeniorCitizens",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "AllocatePagesOfBooks",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.AllocatePagesOfBooks",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.BinarySearch",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchInDesencdingOrderArray",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.BinarySearchInDesencdingOrderArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "CountOfAnElementInASortedArray",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.CountOfAnElementInASortedArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindCeilOfAnElement",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.FindCeilOfAnElement",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindElementInAnInfiniteArray",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.FindElementInAnInfiniteArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindElementInNearlySortedArray",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.FindElementInNearlySortedArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindElementInRoatedSortedArray",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.FindElementInRoatedSortedArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindFirstIndexOfOneInBinarySortedArray",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.FindFirstIndexOfOneInBinarySortedArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindFloorOfAnElement",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.FindFloorOfAnElement",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindKeyInBitonicArray",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.FindKeyInBitonicArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindMinimumDifferenceElement",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.FindMinimumDifferenceElement",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FirstAndLastOccurenceOfAnElement",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.FirstAndLastOccurenceOfAnElement",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MaxElementInBitonicArray",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.MaxElementInBitonicArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "NextAlphabetElement",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.NextAlphabetElement",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "NoOfTimesArrayIsRotated",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.NoOfTimesArrayIsRotated",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "OrderAgnosticBinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.OrderAgnosticBinarySearch",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "PeakElement",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.PeakElement",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SimpleBinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions.SimpleBinarySearch",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ClosestMinMax",
+            "request": "launch",
+            "mainClass": "CarryForward.ClosestMinMax",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "CountPairsAG",
+            "request": "launch",
+            "mainClass": "CarryForward.CountPairsAG",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "LeadersInArray",
+            "request": "launch",
+            "mainClass": "CarryForward.LeadersInArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "GR",
+            "request": "launch",
+            "mainClass": "ContestQuestions.Leucine.GR",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Solutioin6",
+            "request": "launch",
+            "mainClass": "ContestQuestions.Leucine.Solutioin6",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Solution8",
+            "request": "launch",
+            "mainClass": "ContestQuestions.Leucine.Solution8",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Weather",
+            "request": "launch",
+            "mainClass": "ContestQuestions.Leucine.Weather",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "EquilibriumIndex",
+            "request": "launch",
+            "mainClass": "ContestQuestions.thoughtwork.EquilibriumIndex",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MaximizeXorSum",
+            "request": "launch",
+            "mainClass": "ContestQuestions.thoughtwork.MaximizeXorSum",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MinimizedMaximumGoalSum",
+            "request": "launch",
+            "mainClass": "ContestQuestions.thoughtwork.MinimizedMaximumGoalSum",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "December2Problem1455CheckIfAWordOccursAsAPrefixofAnyWordInASentence",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December2Problem1455CheckIfAWordOccursAsAPrefixofAnyWordInASentence",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "InputFromUser",
+            "request": "launch",
+            "mainClass": "Demo.InputFromUser",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "InputOutput",
+            "request": "launch",
+            "mainClass": "Demo.InputOutput",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "Demo.LinearSearch",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "UpperHalfButterflyPattern",
+            "request": "launch",
+            "mainClass": "Demo.UpperHalfButterflyPattern",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SubsetSum",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Knapsack.Problems.SubsetSum",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ZeroOneKnapsackMemoization",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Knapsack.ZeroOneKnapsack.ZeroOneKnapsackMemoization",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ZeroOneKnapsackRecursive",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Knapsack.ZeroOneKnapsack.ZeroOneKnapsackRecursive",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ZeroOneKnapsackTopDownApproach",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Knapsack.ZeroOneKnapsack.ZeroOneKnapsackTopDownApproach",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "NobleIntegers",
+            "request": "launch",
+            "mainClass": "IntermediateSorting.NobleIntegers",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "RemoveElement",
+            "request": "launch",
+            "mainClass": "IntermediateSorting.RemoveElement",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "CountOfAnElementInASortedArray(1)",
+            "request": "launch",
+            "mainClass": "InterviewPrep.BinarySearch.CountOfAnElementInASortedArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindFirstandLastPositionofElementinSortedArray",
+            "request": "launch",
+            "mainClass": "InterviewPrep.BinarySearch.FindFirstandLastPositionofElementinSortedArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ConvertCamelCaseToSnakeCase",
+            "request": "launch",
+            "mainClass": "InterviewPrep.ConvertCamelCaseToSnakeCase",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "InterviewPrep.JavaQuestions.ComparableComparatorInterface.Main",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "InterviewPrep.JavaQuestions.Java8Features.Main",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "StartsWith",
+            "request": "launch",
+            "mainClass": "InterviewPrep.JavaQuestions.Java8Features.StreamAPI.StartsWith",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SubClass",
+            "request": "launch",
+            "mainClass": "InterviewPrep.JavaQuestions.Java8Features.SubClass",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ParentChildRelationship",
+            "request": "launch",
+            "mainClass": "InterviewPrep.JavaQuestions.ParentChildRelationship",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "TwoThreadsEvenAndOdd",
+            "request": "launch",
+            "mainClass": "InterviewPrep.JavaQuestions.Thread.TwoThreadsEvenAndOdd",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindtheDifference",
+            "request": "launch",
+            "mainClass": "InterviewPrep.LeetCodeEasy.FindtheDifference",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MergeTwoSortedArray",
+            "request": "launch",
+            "mainClass": "InterviewPrep.MergeTwoSortedArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SplitArray",
+            "request": "launch",
+            "mainClass": "InterviewPrep.SplitArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SplitArrayOnSize",
+            "request": "launch",
+            "mainClass": "InterviewPrep.SplitArrayOnSize",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "CamelCaseToSnakeCase",
+            "request": "launch",
+            "mainClass": "InterviewPrep.StringQuestions.CamelCaseToSnakeCase",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWordsinaString",
+            "request": "launch",
+            "mainClass": "InterviewPrep.StringQuestions.ReverseWordsinaString",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SplitArrayOnSize(1)",
+            "request": "launch",
+            "mainClass": "InterviewPrep.StringQuestions.SplitArrayOnSize",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ThreeSum",
+            "request": "launch",
+            "mainClass": "InterviewPrep.ThreeSum",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicatesfromSortedArray",
+            "request": "launch",
+            "mainClass": "InterviewPrep.TwoPointer.RemoveDuplicatesfromSortedArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "AverageWaitingTime",
+            "request": "launch",
+            "mainClass": "JulyChallenge.AverageWaitingTime",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "BuildaMatrixWithConditions",
+            "request": "launch",
+            "mainClass": "JulyChallenge.BuildaMatrixWithConditions",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "CountNumberofTeams",
+            "request": "launch",
+            "mainClass": "JulyChallenge.CountNumberofTeams",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "CrawlerLogFolder",
+            "request": "launch",
+            "mainClass": "JulyChallenge.CrawlerLogFolder",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "DeleteNodesAndReturnForest",
+            "request": "launch",
+            "mainClass": "JulyChallenge.DeleteNodesAndReturnForest",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FillingBookcaseShelves",
+            "request": "launch",
+            "mainClass": "JulyChallenge.FillingBookcaseShelves",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindValidMatrixGivenRowandColumnSums",
+            "request": "launch",
+            "mainClass": "JulyChallenge.FindValidMatrixGivenRowandColumnSums",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "IntersectionofTwoArraysII",
+            "request": "launch",
+            "mainClass": "JulyChallenge.IntersectionofTwoArraysII",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MaximumScoreFromRemovingSubstrings",
+            "request": "launch",
+            "mainClass": "JulyChallenge.MaximumScoreFromRemovingSubstrings",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MinimumDeletionstoMakeStringBalanced",
+            "request": "launch",
+            "mainClass": "JulyChallenge.MinimumDeletionstoMakeStringBalanced",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MinimumDifferenceBetweenLargestandSmallestValueinThreeMoves",
+            "request": "launch",
+            "mainClass": "JulyChallenge.MinimumDifferenceBetweenLargestandSmallestValueinThreeMoves",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "NumberofAtoms",
+            "request": "launch",
+            "mainClass": "JulyChallenge.NumberofAtoms",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "PassthePillow",
+            "request": "launch",
+            "mainClass": "JulyChallenge.PassthePillow",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ReverseSubstringsBetweenEachPairofParentheses",
+            "request": "launch",
+            "mainClass": "JulyChallenge.ReverseSubstringsBetweenEachPairofParentheses",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "RobotCollisions",
+            "request": "launch",
+            "mainClass": "JulyChallenge.RobotCollisions",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SortArraybyIncreasingFrequency",
+            "request": "launch",
+            "mainClass": "JulyChallenge.SortArraybyIncreasingFrequency",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SortanArray",
+            "request": "launch",
+            "mainClass": "JulyChallenge.SortanArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SorttheJumbledNumbers",
+            "request": "launch",
+            "mainClass": "JulyChallenge.SorttheJumbledNumbers",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SortthePeople",
+            "request": "launch",
+            "mainClass": "JulyChallenge.SortthePeople",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ThreeConsecutiveOdds",
+            "request": "launch",
+            "mainClass": "JulyChallenge.ThreeConsecutiveOdds",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "WaterBottles",
+            "request": "launch",
+            "mainClass": "JulyChallenge.WaterBottles",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "AppendCharacterstoStringtoMakeSubsequence",
+            "request": "launch",
+            "mainClass": "JuneChallenge.AppendCharacterstoStringtoMakeSubsequence",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchTreetoGreaterSumTree",
+            "request": "launch",
+            "mainClass": "JuneChallenge.BinarySearchTreetoGreaterSumTree",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "JuneChallenge.ContainsDuplicate",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ContinuousSubarraySum",
+            "request": "launch",
+            "mainClass": "JuneChallenge.ContinuousSubarraySum",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "CountNumberofNiceSubarrays",
+            "request": "launch",
+            "mainClass": "JuneChallenge.CountNumberofNiceSubarrays",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FindCommonCharacters",
+            "request": "launch",
+            "mainClass": "JuneChallenge.FindCommonCharacters",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "GrumpyBookstoreOwner",
+            "request": "launch",
+            "mainClass": "JuneChallenge.GrumpyBookstoreOwner",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "HandofStraights",
+            "request": "launch",
+            "mainClass": "JuneChallenge.HandofStraights",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "HeightChecker",
+            "request": "launch",
+            "mainClass": "JuneChallenge.HeightChecker",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "IPO",
+            "request": "launch",
+            "mainClass": "JuneChallenge.IPO",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "LongestPalindrome",
+            "request": "launch",
+            "mainClass": "JuneChallenge.LongestPalindrome",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MagneticForceBetweenTwoBalls",
+            "request": "launch",
+            "mainClass": "JuneChallenge.MagneticForceBetweenTwoBalls",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MaximumTotalImportanceofRoads",
+            "request": "launch",
+            "mainClass": "JuneChallenge.MaximumTotalImportanceofRoads",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MinimumIncrementtoMakeArrayUnique",
+            "request": "launch",
+            "mainClass": "JuneChallenge.MinimumIncrementtoMakeArrayUnique",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MinimumNumberofDaystoMakemBouquets",
+            "request": "launch",
+            "mainClass": "JuneChallenge.MinimumNumberofDaystoMakemBouquets",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MinimumNumberofKConsecutiveBitFlips",
+            "request": "launch",
+            "mainClass": "JuneChallenge.MinimumNumberofKConsecutiveBitFlips",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MinimumNumberofMovestoSeatEveryone",
+            "request": "launch",
+            "mainClass": "JuneChallenge.MinimumNumberofMovestoSeatEveryone",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MostProfitAssigningWork",
+            "request": "launch",
+            "mainClass": "JuneChallenge.MostProfitAssigningWork",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "PatchingArray",
+            "request": "launch",
+            "mainClass": "JuneChallenge.PatchingArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "RelativeSortArray",
+            "request": "launch",
+            "mainClass": "JuneChallenge.RelativeSortArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ReplaceWords",
+            "request": "launch",
+            "mainClass": "JuneChallenge.ReplaceWords",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "JuneChallenge.ReverseString",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ScoreofaString",
+            "request": "launch",
+            "mainClass": "JuneChallenge.ScoreofaString",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SortColors",
+            "request": "launch",
+            "mainClass": "JuneChallenge.SortColors",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SubarraySumsDivisiblebyK",
+            "request": "launch",
+            "mainClass": "JuneChallenge.SubarraySumsDivisiblebyK",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SumofSquareNumbers",
+            "request": "launch",
+            "mainClass": "JuneChallenge.SumofSquareNumbers",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ColumnwiseSum",
+            "request": "launch",
+            "mainClass": "Matrix.ColumnwiseSum",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Diagonals",
+            "request": "launch",
+            "mainClass": "Matrix.Diagonals",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "RotateMatrixByXDegree",
+            "request": "launch",
+            "mainClass": "Matrix.RotateMatrixByXDegree",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "RowwiseSum",
+            "request": "launch",
+            "mainClass": "Matrix.RowwiseSum",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Transpose",
+            "request": "launch",
+            "mainClass": "Matrix.Transpose",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "HollowRhombus",
+            "request": "launch",
+            "mainClass": "Patterns.HollowRhombus",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Pattern3",
+            "request": "launch",
+            "mainClass": "Patterns.Pattern3",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Pattern4",
+            "request": "launch",
+            "mainClass": "Patterns.Pattern4",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "EquilibriumIndex(1)",
+            "request": "launch",
+            "mainClass": "PrefixSum.EquilibriumIndex",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "LeftandRightSumDifferences",
+            "request": "launch",
+            "mainClass": "PrefixSum.LeftandRightSumDifferences",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ReplaceZeroGetMaxConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "ProblemSolving.ReplaceZeroGetMaxConsecutiveOnes",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "ProblemSolving.RotateArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SwapZeroGetMaxConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "ProblemSolving.SwapZeroGetMaxConsecutiveOnes",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ToggleBulb",
+            "request": "launch",
+            "mainClass": "ProblemSolving.ToggleBulb",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Question",
+            "request": "launch",
+            "mainClass": "Question",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "InputTwoVariables",
+            "request": "launch",
+            "mainClass": "RandomQuestions.InputTwoVariables",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "LeapYear",
+            "request": "launch",
+            "mainClass": "RandomQuestions.LeapYear",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "NumberofStepstoReduceaNumberinBinaryRepresentationtoOne",
+            "request": "launch",
+            "mainClass": "RandomQuestions.NumberofStepstoReduceaNumberinBinaryRepresentationtoOne",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "PrefixPostfix",
+            "request": "launch",
+            "mainClass": "RandomQuestions.PrefixPostfix",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "RangeSumQueryImmutable",
+            "request": "launch",
+            "mainClass": "RandomQuestions.RangeSumQueryImmutable",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SumofAllOddLengthSubarrays",
+            "request": "launch",
+            "mainClass": "RandomQuestions.SumofAllOddLengthSubarrays",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "UserInput",
+            "request": "launch",
+            "mainClass": "RandomQuestions.UserInput",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "DeleteMiddleElementFromStack",
+            "request": "launch",
+            "mainClass": "Recursion.DeleteMiddleElementFromStack",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "GenerateBalancedParenthesis",
+            "request": "launch",
+            "mainClass": "Recursion.InputOutputMethod.GenerateBalancedParenthesis",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "LetterCaseChangeWithDigits",
+            "request": "launch",
+            "mainClass": "Recursion.InputOutputMethod.LetterCaseChangeWithDigits",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "PermutationWithCaseChange",
+            "request": "launch",
+            "mainClass": "Recursion.InputOutputMethod.PermutationWithCaseChange",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "PermutationWithSpaces",
+            "request": "launch",
+            "mainClass": "Recursion.InputOutputMethod.PermutationWithSpaces",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "PrintNBitBinaryNumbersHavingMore1sthan0s",
+            "request": "launch",
+            "mainClass": "Recursion.InputOutputMethod.PrintNBitBinaryNumbersHavingMore1sthan0s",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SubsetOfString",
+            "request": "launch",
+            "mainClass": "Recursion.InputOutputMethod.SubsetOfString",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "JosephusProblem",
+            "request": "launch",
+            "mainClass": "Recursion.JosephusProblem",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "KthSymbolinGrammar",
+            "request": "launch",
+            "mainClass": "Recursion.KthSymbolinGrammar",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "PrintOnrToN",
+            "request": "launch",
+            "mainClass": "Recursion.PrintOnrToN",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStack",
+            "request": "launch",
+            "mainClass": "Recursion.ReverseStack",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SortAStackUsingRecursion",
+            "request": "launch",
+            "mainClass": "Recursion.SortAStackUsingRecursion",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "SortAnArrayUsingRecursion",
+            "request": "launch",
+            "mainClass": "Recursion.SortAnArrayUsingRecursion",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "Recursion.TowerOfHanoi",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "decreasingOrder",
+            "request": "launch",
+            "mainClass": "Recursion.decreasingOrder",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "CountOccurencesOfAnagrams",
+            "request": "launch",
+            "mainClass": "SlidingWindow.CountOccurencesOfAnagrams",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "FirstNegativeIntegerInEveryWindow",
+            "request": "launch",
+            "mainClass": "SlidingWindow.FirstNegativeIntegerInEveryWindow",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubarraySumofSizeK",
+            "request": "launch",
+            "mainClass": "SlidingWindow.MaxSubarraySumofSizeK",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "EvenOddThread",
+            "request": "launch",
+            "mainClass": "javaConcepts.EvenOddThread",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "AlternateNumbersAndAlphabets",
+            "request": "launch",
+            "mainClass": "javaConcepts.multithreading.AlternateNumbersAndAlphabets",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "javaConcepts.multithreading.Main",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "OddEven",
+            "request": "launch",
+            "mainClass": "javaConcepts.multithreading.OddEven",
+            "projectName": "Problem Solving_262068e2"
+        }
+    ]
+}
