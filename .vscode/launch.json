@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December3Problem2109AddingSpacesToAString",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December3Problem2109AddingSpacesToAString",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "ProductofArrayExceptSelf",
             "request": "launch",
             "mainClass": "NeetCode150.ProductofArrayExceptSelf",
