@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December4Problem2825MakeStringASubsequenceUsingCyclicIncrements",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December4Problem2825MakeStringASubsequenceUsingCyclicIncrements",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December3Problem2109AddingSpacesToAString",
             "request": "launch",
             "mainClass": "DecemberChallenge.December3Problem2109AddingSpacesToAString",

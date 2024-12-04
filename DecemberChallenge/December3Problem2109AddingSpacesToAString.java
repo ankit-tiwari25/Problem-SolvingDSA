@@ -1,7 +1,7 @@
 package DecemberChallenge;
 
 /*
- * 2109. [Medium] Adding Spaces to a String
+ * 2109.  Adding Spaces to a String
  */
 public class December3Problem2109AddingSpacesToAString {
     public static void main(String[] args) {
