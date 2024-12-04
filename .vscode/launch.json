@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestConsecutiveSequence",
+            "request": "launch",
+            "mainClass": "NeetCode150.LongestConsecutiveSequence",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December4Problem2825MakeStringASubsequenceUsingCyclicIncrements",
             "request": "launch",
             "mainClass": "DecemberChallenge.December4Problem2825MakeStringASubsequenceUsingCyclicIncrements",
