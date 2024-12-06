@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December6Problem2554MaximumNumberOfIntegersToChooseFromARangeI",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December6Problem2554MaximumNumberOfIntegersToChooseFromARangeI",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
+            "name": "December5Problem2337MovePiecesToObtainAString",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December5Problem2337MovePiecesToObtainAString",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "LongestConsecutiveSequence",
             "request": "launch",
             "mainClass": "NeetCode150.LongestConsecutiveSequence",
