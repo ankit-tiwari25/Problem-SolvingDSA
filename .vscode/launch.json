@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December7Problem1760MinimumLimitOfBallsInABag",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December7Problem1760MinimumLimitOfBallsInABag",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December6Problem2554MaximumNumberOfIntegersToChooseFromARangeI",
             "request": "launch",
             "mainClass": "DecemberChallenge.December6Problem2554MaximumNumberOfIntegersToChooseFromARangeI",
