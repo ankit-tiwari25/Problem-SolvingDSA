@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December9Problem3152SpecialArrayII",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December9Problem3152SpecialArrayII",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December8Problem2054TwoBestNonOverlappingEvents",
             "request": "launch",
             "mainClass": "DecemberChallenge.December8Problem2054TwoBestNonOverlappingEvents",
