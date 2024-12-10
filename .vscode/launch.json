@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December10Problem2981FindLongestSpecialSubstringThatOccursThriceI",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December10Problem2981FindLongestSpecialSubstringThatOccursThriceI",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December9Problem3152SpecialArrayII",
             "request": "launch",
             "mainClass": "DecemberChallenge.December9Problem3152SpecialArrayII",
