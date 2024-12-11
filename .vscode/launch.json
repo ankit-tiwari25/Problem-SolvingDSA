@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December11Problem2779MaximumBeautyOfAnArrayAfterApplyingOperation",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December11Problem2779MaximumBeautyOfAnArrayAfterApplyingOperation",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December10Problem2981FindLongestSpecialSubstringThatOccursThriceI",
             "request": "launch",
             "mainClass": "DecemberChallenge.December10Problem2981FindLongestSpecialSubstringThatOccursThriceI",
