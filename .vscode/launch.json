@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December12Problem2558TakeGiftsFromTheRichestPile",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December12Problem2558TakeGiftsFromTheRichestPile",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December11Problem2779MaximumBeautyOfAnArrayAfterApplyingOperation",
             "request": "launch",
             "mainClass": "DecemberChallenge.December11Problem2779MaximumBeautyOfAnArrayAfterApplyingOperation",
