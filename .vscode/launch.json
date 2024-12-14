@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December14Problem2762ContinuousSubarrays",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December14Problem2762ContinuousSubarrays",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December13Problem2593FindScoreOfAnArrayAfterMarkingAllElements",
             "request": "launch",
             "mainClass": "DecemberChallenge.December13Problem2593FindScoreOfAnArrayAfterMarkingAllElements",
