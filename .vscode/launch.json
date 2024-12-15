@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December15Problem1792MaximumAveragePassRatio",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December15Problem1792MaximumAveragePassRatio",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December14Problem2762ContinuousSubarrays",
             "request": "launch",
             "mainClass": "DecemberChallenge.December14Problem2762ContinuousSubarrays",
