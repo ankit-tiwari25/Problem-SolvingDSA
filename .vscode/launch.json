@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December17Problem2182ConstructStringWithRepeatLimit",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December17Problem2182ConstructStringWithRepeatLimit",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Dcember16Problem3264FinalArrayStateAfterKMultiplicationOperations_I",
             "request": "launch",
             "mainClass": "DecemberChallenge.Dcember16Problem3264FinalArrayStateAfterKMultiplicationOperations_I",
