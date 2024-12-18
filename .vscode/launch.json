@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December18Problem1475FinalPricesWithASpecialDiscountInAShop",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December18Problem1475FinalPricesWithASpecialDiscountInAShop",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December17Problem2182ConstructStringWithRepeatLimit",
             "request": "launch",
             "mainClass": "DecemberChallenge.December17Problem2182ConstructStringWithRepeatLimit",
