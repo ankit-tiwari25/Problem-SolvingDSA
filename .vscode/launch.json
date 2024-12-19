@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December19Problem769MaxChunksToMakeSorted",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December19Problem769MaxChunksToMakeSorted",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December18Problem1475FinalPricesWithASpecialDiscountInAShop",
             "request": "launch",
             "mainClass": "DecemberChallenge.December18Problem1475FinalPricesWithASpecialDiscountInAShop",
