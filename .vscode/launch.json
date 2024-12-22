@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December22Problem2940FindBuildingWhereAliceAndBobCanMeet",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December22Problem2940FindBuildingWhereAliceAndBobCanMeet",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December19Problem769MaxChunksToMakeSorted",
             "request": "launch",
             "mainClass": "DecemberChallenge.December19Problem769MaxChunksToMakeSorted",
