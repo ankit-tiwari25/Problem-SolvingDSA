@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December26Problem494TargetSum",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December26Problem494TargetSum",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December22Problem2940FindBuildingWhereAliceAndBobCanMeet",
             "request": "launch",
             "mainClass": "DecemberChallenge.December22Problem2940FindBuildingWhereAliceAndBobCanMeet",
