@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December28Problem689MaximumSumof3NonOverlappingSubarrays",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December28Problem689MaximumSumof3NonOverlappingSubarrays",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December27Problem1014BestSightseeingPair",
             "request": "launch",
             "mainClass": "DecemberChallenge.December27Problem1014BestSightseeingPair",
