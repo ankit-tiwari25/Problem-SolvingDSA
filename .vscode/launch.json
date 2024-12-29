@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December29Problem1639NumberOfWaysToFormATargetStringGivenADictionary",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December29Problem1639NumberOfWaysToFormATargetStringGivenADictionary",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December28Problem689MaximumSumof3NonOverlappingSubarrays",
             "request": "launch",
             "mainClass": "DecemberChallenge.December28Problem689MaximumSumof3NonOverlappingSubarrays",
