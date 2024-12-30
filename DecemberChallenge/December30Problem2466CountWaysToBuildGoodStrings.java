@@ -5,10 +5,11 @@ package DecemberChallenge;
 public class December30Problem2466CountWaysToBuildGoodStrings {
     private int mod = (int) 1e9 + 7;
     public static void main(String[] args) {
-        
+        int low = 3, high = 3, zero = 1, one = 1;
+        System.out.println(countGoodStrings(low, high, zero, one));
     }
     
-    public int countGoodStrings(int low, int high, int zero, int one) {
+    public static int countGoodStrings(int low, int high, int zero, int one) {
         if (zero > one) 
             return countGoodStrings(low, high, one, zero);
 
