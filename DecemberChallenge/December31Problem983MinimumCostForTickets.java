@@ -4,9 +4,11 @@ package DecemberChallenge;
  */
 public class December31Problem983MinimumCostForTickets {
     public static void main(String[] args) {
-        
+        int[] days = {1,4,6,7,8,20};
+        int[] costs = {2,7,15};
+        System.out.println(mincostTickets(days, costs));
     }
-    public int mincostTickets(int[] days, int[] costs) {
+    public static int mincostTickets(int[] days, int[] costs) {
         int maxDay = days[days.length - 1];
        boolean[] travelDay = new boolean[maxDay + 1];
 

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "December31Problem983MinimumCostForTickets",
+            "request": "launch",
+            "mainClass": "DecemberChallenge.December31Problem983MinimumCostForTickets",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December30Problem2466CountWaysToBuildGoodStrings",
             "request": "launch",
             "mainClass": "DecemberChallenge.December30Problem2466CountWaysToBuildGoodStrings",
