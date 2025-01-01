@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan1Problem1422MaximumScoreAfterSplittingaString",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan1Problem1422MaximumScoreAfterSplittingaString",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "December31Problem983MinimumCostForTickets",
             "request": "launch",
             "mainClass": "DecemberChallenge.December31Problem983MinimumCostForTickets",
