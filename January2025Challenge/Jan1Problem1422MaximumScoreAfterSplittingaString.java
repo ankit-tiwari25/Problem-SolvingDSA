@@ -6,7 +6,7 @@ package January2025Challenge;
 public class Jan1Problem1422MaximumScoreAfterSplittingaString {
     public static void main(String[] args) {
         String s = "011101";
-        System.out.println(maxScore(s));
+        System.out.println(maxScore(s)); 
     }
     public static int maxScore(String s) {
         int totalOnes = 0;
