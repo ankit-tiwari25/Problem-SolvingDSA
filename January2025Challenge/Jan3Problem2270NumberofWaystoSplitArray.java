@@ -3,7 +3,8 @@ package January2025Challenge;
 /* 2270.[Medium] Number of Ways to Split Array */
 public class Jan3Problem2270NumberofWaystoSplitArray {
     public static void main(String[] args) {
-        
+      int[]  nums = {10,4,-8,7};
+      System.out.println(waysToSplitArray(nums));
     }
     public static int waysToSplitArray(int[] nums) {
         long leftSum = 0, rightSum = 0;
