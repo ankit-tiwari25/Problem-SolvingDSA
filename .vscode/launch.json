@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan4Problem1930UniqueLength3PalindromicSubsequences",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan4Problem1930UniqueLength3PalindromicSubsequences",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan3Problem2270NumberofWaystoSplitArray",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan3Problem2270NumberofWaystoSplitArray",

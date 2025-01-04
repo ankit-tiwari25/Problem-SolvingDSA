@@ -6,7 +6,8 @@ import java.util.HashSet;
  */
 public class Jan4Problem1930UniqueLength3PalindromicSubsequences {
     public static void main(String[] args) {
-        
+        String s = "aabca";
+        System.out.println(countPalindromicSubsequence(s));
     }
     public static int countPalindromicSubsequence(String s) {
            int[] R = new int[26];
