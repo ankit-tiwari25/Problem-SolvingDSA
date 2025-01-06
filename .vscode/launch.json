@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan6Problem1769MinimumNumberofOperationstoMoveAllBallstoEachBox",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan6Problem1769MinimumNumberofOperationstoMoveAllBallstoEachBox",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan5Problem2381ShiftingLettersII",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan5Problem2381ShiftingLettersII",
