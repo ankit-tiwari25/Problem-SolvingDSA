@@ -3,7 +3,8 @@ package January2025Challenge;
 /* 3042. [Easy] Count Prefix and Suffix Pairs I */
 public class Jan8Problem3042CountPrefixandSuffixPairsI {
     public static void main(String[] args) {
-        
+        String[] words = {"a","aba","ababa","aa"};
+        System.out.println(countPrefixSuffixPairs(words));
     }
     public static int countPrefixSuffixPairs(String[] words) {
         int n = words.length, count = 0;
