@@ -1,10 +1,14 @@
+package January2025Challenge;
+
 /* 1400. [Medium] Construct K Palindrome Strings */
 
 import java.util.Arrays;
 
 public class Jan11Problem1400ConstructKPalindromeStrings {
     public static void main(String[] args) {
-        
+       String s = "annabelle";
+       int k = 2;
+       System.out.println(canConstruct(s, k));
     }
     public static boolean canConstruct(String s, int k) {
         if (s.length() < k) return false;
