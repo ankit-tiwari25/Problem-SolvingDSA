@@ -2,7 +2,8 @@ package January2025Challenge;
 /* 3223. [Medium] Minimum Length of String After Operations */
 public class Jan13Problem3223MinimumLengthofStringAfterOperations {
     public static void main(String[] args) {
-        
+        String  s = "abaacbcbb";
+        System.out.println(minimumLength(s));
     }
     public static int minimumLength(String s) {
         int[] charFrequency = new int[26];
