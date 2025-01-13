@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan12Problem2116CheckifAParenthesesStringCanBeValid",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan12Problem2116CheckifAParenthesesStringCanBeValid",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan11Problem1400ConstructKPalindromeStrings",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan11Problem1400ConstructKPalindromeStrings",
