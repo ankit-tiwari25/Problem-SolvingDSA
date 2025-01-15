@@ -4,7 +4,8 @@ package January2025Challenge;
  */
 public class Jan14Problem2657FindthePrefixCommonArrayofTwoArrays {
  public static void main(String[] args) {
-    
+    int[] A = {1,3,2,4}, B = {3,1,2,4};
+    display(findThePrefixCommonArray(A, B));
  }   
  public static int[] findThePrefixCommonArray(int[] A, int[] B) {
     int n = A.length;
@@ -18,5 +19,10 @@ public class Jan14Problem2657FindthePrefixCommonArrayofTwoArrays {
       ans[i] = common;
   }
   return ans;
+}
+public static void display(int[] arr){
+    for(int i : arr){
+        System.out.print(i + " ");
+    }
 }
 }
