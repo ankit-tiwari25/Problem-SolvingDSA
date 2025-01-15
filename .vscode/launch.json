@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan15Problem2429MinimizeXOR",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan15Problem2429MinimizeXOR",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan14Problem2657FindthePrefixCommonArrayofTwoArrays",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan14Problem2657FindthePrefixCommonArrayofTwoArrays",
