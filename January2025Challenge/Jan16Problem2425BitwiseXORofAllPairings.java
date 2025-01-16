@@ -2,7 +2,9 @@ package January2025Challenge;
 /* 2425.[Medium] Bitwise XOR of All Pairings */
 public class Jan16Problem2425BitwiseXORofAllPairings {
     public static void main(String[] args) {
-        
+       int[] nums1 = {2,1,3};
+       int[] nums2 = {10,2,5,0};
+       System.out.println(xorAllNums(nums1, nums2));
     }
     public static int xorAllNums(int[] nums1, int[] nums2) {
         int c1 = nums1.length;
