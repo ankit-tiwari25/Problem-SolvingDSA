@@ -2,7 +2,8 @@ package January2025Challenge;
 /* 2683. [Medium] Neighboring Bitwise XOR */
 public class Jan17Problem2683NeighboringBitwiseXOR {
     public static void main(String[] args) {
-        
+        int[] derived = {1,1,0};
+        System.out.println(doesValidArrayExist(derived));
     }
     public static boolean doesValidArrayExist(int[] derived) {
         int n=derived.length;
