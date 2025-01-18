@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan18Problem1368MinimumCosttoMakeatLeastOneValidPathinAGrid",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan18Problem1368MinimumCosttoMakeatLeastOneValidPathinAGrid",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan16Problem2425BitwiseXORofAllPairings",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan16Problem2425BitwiseXORofAllPairings",
