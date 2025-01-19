@@ -5,7 +5,8 @@ import java.util.PriorityQueue;
 /* 407.[Hard] Trapping Rain Water II */
 public class Jan19Problem407TrappingRainWaterII {
     public static void main(String[] args) {
-        
+        int[][] heightMap = {{1,4,3,1,3,2},{3,2,1,3,2,4},{2,3,3,2,3,1}};
+        System.out.println(trapRainWater(heightMap));
     }
     public static int trapRainWater(int[][] heightMap) {
         int m=heightMap.length;
