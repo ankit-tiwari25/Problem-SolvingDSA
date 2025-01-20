@@ -9,6 +9,7 @@ public class Jan20Problem2661FirstCompletelyPaintedRoworColumn {
     public static void main(String[] args) {
         int[] arr = {1,3,4,2};
         int[][] mat = {{1,4},{2,3}};
+        System.out.println(firstCompleteIndex(arr, mat));
     }
     public static int firstCompleteIndex(int[] arr, int[][] mat) {
           int rows = mat.length, cols = mat[0].length;
