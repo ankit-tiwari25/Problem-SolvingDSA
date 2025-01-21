@@ -2,7 +2,8 @@ package January2025Challenge;
 /* 2017.[Medium] Grid Game */
 public class Jan21Problem2017GridGame {
     public static void main(String[] args) {
-        
+       int[][] grid = {{2,5,4},{1,5,1}};
+       System.out.println(gridGame(grid));
     }
     public static long gridGame(int[][] grid) {
         long minResult = Long.MAX_VALUE;
