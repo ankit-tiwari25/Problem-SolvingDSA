@@ -6,9 +6,10 @@ import java.util.Queue;
 /* 1765.[Medium] Map of Highest Peak */
 public class Jan22Problem1765MapofHighestPeak {
     public static void main(String[] args) {
-        
+       int[][] isWater = {{0,1},{0,0}};
+       display(highestPeak(isWater));
     }
-      public int[][] highestPeak(int[][] isWater) {
+      public static int[][] highestPeak(int[][] isWater) {
          int m=isWater.length;
         int n=isWater[0].length;
 
