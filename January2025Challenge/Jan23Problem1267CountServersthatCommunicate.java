@@ -3,6 +3,7 @@ package January2025Challenge;
 // 1267.[Medium] Count Servers that Communicate
 public class Jan23Problem1267CountServersthatCommunicate {
    public static void main(String[] args) {
+    int[][] grid = {{1,1,0,0},{0,0,1,0},{0,0,1,0},{0,0,0,1}};
     
    } 
    public int countServers(int[][] grid) {
