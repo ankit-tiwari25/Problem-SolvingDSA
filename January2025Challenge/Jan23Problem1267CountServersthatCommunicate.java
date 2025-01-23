@@ -4,9 +4,9 @@ package January2025Challenge;
 public class Jan23Problem1267CountServersthatCommunicate {
    public static void main(String[] args) {
     int[][] grid = {{1,1,0,0},{0,0,1,0},{0,0,1,0},{0,0,0,1}};
-    
+    System.out.println(countServers(grid));
    } 
-   public int countServers(int[][] grid) {
+   public static int countServers(int[][] grid) {
     int[] Rows = new int[grid.length];
    int[] Col = new int[grid[0].length];
    for (int i = 0; i < grid.length; i++) {
