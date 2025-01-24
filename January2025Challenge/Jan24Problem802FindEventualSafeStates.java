@@ -7,7 +7,7 @@ import java.util.List;
 public class Jan24Problem802FindEventualSafeStates {
     public static void main(String[] args) {
         int[][] graph = {{1,2},{2,3},{5},{0},{5},{},{}};
-        display(eventualSafeNodes(graph));
+        System.out.println(eventualSafeNodes(graph));
     }
     public static List<Integer> eventualSafeNodes(int[][] graph) {
            int n = graph.length;
@@ -35,5 +35,11 @@ public class Jan24Problem802FindEventualSafeStates {
         
         state[node] = 2; // Mark as safe
         return true;
+    }
+    public static void display(List<Integer> arr){
+        for(int i : arr){
+            System.out.print(i + " ");
+        }
+        System.out.println();
     }
 }

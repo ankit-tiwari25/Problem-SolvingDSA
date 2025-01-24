@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan24Problem802FindEventualSafeStates",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan24Problem802FindEventualSafeStates",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan23Problem1267CountServersthatCommunicate",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan23Problem1267CountServersthatCommunicate",
