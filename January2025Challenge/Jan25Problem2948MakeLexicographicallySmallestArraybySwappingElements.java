@@ -8,7 +8,10 @@ import java.util.List;
 /* 2948.[Medium] Make Lexicographically Smallest Array by Swapping Elements */
 public class Jan25Problem2948MakeLexicographicallySmallestArraybySwappingElements {
     public static void main(String[] args) {
+        int nums[] = {1,5,3,9,8};
+        int limit = 2;
         
+        display(lexicographicallySmallestArray(nums, limit));
     }
      public static int[] lexicographicallySmallestArray(int[] nums, int limit) {
           int n = nums.length;
@@ -44,5 +47,11 @@ public class Jan25Problem2948MakeLexicographicallySmallestArraybySwappingElement
             }
         }
         return result;
+    }
+    public static void display(int[] arr){
+        for(int i : arr){
+            System.out.print(" " + i);
+        }
+        System.out.println();
     }
 }
