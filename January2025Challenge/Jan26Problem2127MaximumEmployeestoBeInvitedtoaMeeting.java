@@ -6,9 +6,10 @@ import java.util.Queue;
 /* 2127.[Hard] Maximum Employees to Be Invited to a Meeting */
 public class Jan26Problem2127MaximumEmployeestoBeInvitedtoaMeeting {
     public static void main(String[] args) {
-        
+        int[] favorite = {2,2,1,2};
+        System.out.println(maximumInvitations(favorite));
     }
-     public int maximumInvitations(int[] favorite) {
+     public static int maximumInvitations(int[] favorite) {
          int n = favorite.length;
         int[] inDeg = new int[n];
         int[] chainLen = new int[n];
