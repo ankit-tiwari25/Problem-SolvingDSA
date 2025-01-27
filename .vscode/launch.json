@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan26Problem2127MaximumEmployeestoBeInvitedtoaMeeting",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan26Problem2127MaximumEmployeestoBeInvitedtoaMeeting",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan25Problem2948MakeLexicographicallySmallestArraybySwappingElements",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan25Problem2948MakeLexicographicallySmallestArraybySwappingElements",
