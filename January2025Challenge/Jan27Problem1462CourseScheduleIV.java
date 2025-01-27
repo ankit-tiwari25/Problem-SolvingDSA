@@ -10,8 +10,9 @@ public class Jan27Problem1462CourseScheduleIV {
         int numCourses = 2;
         int[][] prerequisites = {{1,0}}; 
         int[][] queries = {{0,1},{1,0}};
+        System.out.println(checkIfPrerequisite(numCourses, prerequisites, queries));
     }
-    public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
+    public static List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
            List<Integer>[] adj = new ArrayList[numCourses];
         boolean[][] prereq = new boolean[numCourses][numCourses];
         int[] inDegree = new int[numCourses];

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan27Problem1462CourseScheduleIV",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan27Problem1462CourseScheduleIV",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan26Problem2127MaximumEmployeestoBeInvitedtoaMeeting",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan26Problem2127MaximumEmployeestoBeInvitedtoaMeeting",
