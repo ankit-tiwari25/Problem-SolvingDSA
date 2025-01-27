@@ -7,7 +7,9 @@ import java.util.Queue;
 
 public class Jan27Problem1462CourseScheduleIV {
     public static void main(String[] args) {
-        
+        int numCourses = 2;
+        int[][] prerequisites = {{1,0}}; 
+        int[][] queries = {{0,1},{1,0}};
     }
     public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
            List<Integer>[] adj = new ArrayList[numCourses];
