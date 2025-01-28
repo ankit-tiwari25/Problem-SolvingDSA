@@ -2,6 +2,8 @@ package January2025Challenge;
 
 /* 2658.[Medium] Maximum Number of Fish in a Grid */
 public class Jan28Problem2658MaximumNumberofFishinaGrid {
+    public static int m, n, dir[] = {-1,0,1,0,-1};
+
     public static void main(String[] args) {
         
     }
