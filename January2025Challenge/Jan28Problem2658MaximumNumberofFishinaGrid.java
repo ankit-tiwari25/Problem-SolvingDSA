@@ -5,7 +5,8 @@ public class Jan28Problem2658MaximumNumberofFishinaGrid {
     public static int m, n, dir[] = {-1,0,1,0,-1};
 
     public static void main(String[] args) {
-        
+        int[][] grid = {{0,2,1,0},{4,0,0,3},{1,0,0,4},{0,3,2,0}};
+        System.out.println(findMaxFish(grid));
     }
     private static int dfs(int[][] grid, int i, int j) {
         if (i<0 || i>=m || j<0 || j>=n || grid[i][j]==0) return 0;
