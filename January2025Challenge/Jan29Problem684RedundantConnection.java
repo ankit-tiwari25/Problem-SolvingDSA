@@ -30,4 +30,10 @@ public static int[] findRedundantConnection(int[][] edges) {
 
     return new int[0]; // Unreachable for valid inputs
 }
+private static int find(int i) {
+    if (parent[i] != i) {
+        parent[i] = find(parent[i]); // Path compression
+    }
+    return parent[i];
+}
 }
