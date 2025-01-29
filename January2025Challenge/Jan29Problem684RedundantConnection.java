@@ -36,4 +36,20 @@ private static int find(int i) {
     }
     return parent[i];
 }
+private static void join(int u, int v) {
+    int rootU = find(u);
+    int rootV = find(v);
+
+    if (rootU != rootV) {
+        // Union by rank
+        if (rank[rootU] > rank[rootV]) {
+            parent[rootV] = rootU;
+        } else if (rank[rootU] < rank[rootV]) {
+            parent[rootU] = rootV;
+        } else {
+            parent[rootV] = rootU;
+            rank[rootU]++;
+        }
+    }
+}
 }
