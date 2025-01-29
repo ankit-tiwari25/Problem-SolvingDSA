@@ -5,7 +5,8 @@ public class Jan29Problem684RedundantConnection {
     private static int[] parent;
     private static int[] rank;
     public static void main(String[] args) {
-        
+        int[][] edges = {{1,2},{1,3},{2,3}};
+        display(findRedundantConnection(edges));
     }
  
 public static int[] findRedundantConnection(int[][] edges) {
