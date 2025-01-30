@@ -2,7 +2,9 @@ package January2025Challenge;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /* 2493. Divide Nodes Into the Maximum Number of Groups */
 public class Jan30Problem2493DivideNodesIntotheMaximumNumberofGroups {
@@ -14,7 +16,7 @@ public class Jan30Problem2493DivideNodesIntotheMaximumNumberofGroups {
     }
      // DFS to check bipartiteness and collect component nodes
     public static int magnificentSets(int n, int[][] edges) {
-        this.n = n;
+        Jan30Problem2493DivideNodesIntotheMaximumNumberofGroups.n = n;
         color = new int[n];
         Arrays.fill(color, -1);
         adj = new ArrayList<>();
@@ -56,5 +58,27 @@ public class Jan30Problem2493DivideNodesIntotheMaximumNumberofGroups {
                 return false;
         }
         return true;
+    }
+    // BFS to compute max depth (groups) for a component
+    private static int maxGroupsInComponent(List<Integer> component) {
+        int maxDepth = 0;
+        for (int start : component) {
+            int[] depth = new int[n];
+            Arrays.fill(depth, -1);
+            Queue<Integer> q = new LinkedList<>();
+            q.add(start);
+            depth[start] = 0;
+            while (!q.isEmpty()) {
+                int node = q.poll();
+                for (int nbr : adj.get(node)) {
+                    if (depth[nbr] == -1) {
+                        depth[nbr] = depth[node] + 1;
+                        maxDepth = Math.max(maxDepth, depth[nbr]);
+                        q.add(nbr);
+                    }
+                }
+            }
+        }
+        return maxDepth + 1; // Depth to groups conversion
     }
 }
