@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan30Problem2493DivideNodesIntotheMaximumNumberofGroups",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan30Problem2493DivideNodesIntotheMaximumNumberofGroups",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan29Problem684RedundantConnection",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan29Problem684RedundantConnection",
