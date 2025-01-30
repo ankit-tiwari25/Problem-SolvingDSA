@@ -12,7 +12,9 @@ public class Jan30Problem2493DivideNodesIntotheMaximumNumberofGroups {
     private static List<List<Integer>> adj; // Adjacency list
     private static int n; // Number of nodes
     public static void main(String[] args) {
-        
+       int n = 6;
+       int[][] edges = {{1,2},{1,4},{1,5},{2,6},{2,3},{4,6}};
+       System.out.println(magnificentSets(n, edges));
     }
      // DFS to check bipartiteness and collect component nodes
     public static int magnificentSets(int n, int[][] edges) {
