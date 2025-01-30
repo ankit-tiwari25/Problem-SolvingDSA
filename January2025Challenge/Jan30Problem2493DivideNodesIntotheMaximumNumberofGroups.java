@@ -46,4 +46,15 @@ public class Jan30Problem2493DivideNodesIntotheMaximumNumberofGroups {
 
         return total;
     }
+     // DFS to check bipartiteness and collect component nodes
+     private static boolean isBipartite(int node, int c, List<Integer> component) {
+        color[node] = c;
+        component.add(node);
+        for (int nbr : adj.get(node)) {
+            if (color[nbr] == c) return false; // Odd cycle detected
+            if (color[nbr] == -1 && !isBipartite(nbr, 1 - c, component)) 
+                return false;
+        }
+        return true;
+    }
 }
