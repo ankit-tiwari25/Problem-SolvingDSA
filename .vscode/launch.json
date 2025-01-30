@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jan29Problem684RedundantConnection",
+            "request": "launch",
+            "mainClass": "January2025Challenge.Jan29Problem684RedundantConnection",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan28Problem2658MaximumNumberofFishinaGrid",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan28Problem2658MaximumNumberofFishinaGrid",
