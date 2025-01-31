@@ -11,7 +11,7 @@ public class Jan31Problem827MakingALargeIsland {
 
    public static void main(String[] args) {
     int[][] grid = {{1,0},{0,1}};
-
+    System.out.println(largestIsland(grid));
    } 
 
     public static int largestIsland(int[][] grid) {
