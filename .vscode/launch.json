@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb1Problem3151SpecialArrayI",
+            "request": "launch",
+            "mainClass": "February2025Challenge.Feb1Problem3151SpecialArrayI",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jan31Problem827MakingALargeIsland",
             "request": "launch",
             "mainClass": "January2025Challenge.Jan31Problem827MakingALargeIsland",
