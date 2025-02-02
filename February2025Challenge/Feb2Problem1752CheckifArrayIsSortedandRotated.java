@@ -4,6 +4,7 @@ package February2025Challenge;
 public class Feb2Problem1752CheckifArrayIsSortedandRotated {
   public static void main(String[] args) {
     int[] nums = {3,4,5,1,2};
+    System.out.println(check(nums));
   }  
   public static boolean check(int[] nums) {
     int count=0;
