@@ -3,7 +3,7 @@ package February2025Challenge;
 /* 1752.[Easy] Check if Array Is Sorted and Rotated */
 public class Feb2Problem1752CheckifArrayIsSortedandRotated {
   public static void main(String[] args) {
-    
+    int[] nums = {3,4,5,1,2};
   }  
   public static boolean check(int[] nums) {
     int count=0;
