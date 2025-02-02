@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb2Problem1752CheckifArrayIsSortedandRotated",
+            "request": "launch",
+            "mainClass": "February2025Challenge.Feb2Problem1752CheckifArrayIsSortedandRotated",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb1Problem3151SpecialArrayI",
             "request": "launch",
             "mainClass": "February2025Challenge.Feb1Problem3151SpecialArrayI",
