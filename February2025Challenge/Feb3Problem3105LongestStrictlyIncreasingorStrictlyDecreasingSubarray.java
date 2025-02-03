@@ -3,7 +3,7 @@ package February2025Challenge;
 /* 3105.[Easy] Longest Strictly Increasing or Strictly Decreasing Subarray */
 public class Feb3Problem3105LongestStrictlyIncreasingorStrictlyDecreasingSubarray {
     public static void main(String[] args) {
-        
+        int[]  nums = {1,4,3,3,2};
     }
     public static int longestMonotonicSubarray(int[] nums) {
         int incLength = 1, decLength = 1, maxLength = 1;
