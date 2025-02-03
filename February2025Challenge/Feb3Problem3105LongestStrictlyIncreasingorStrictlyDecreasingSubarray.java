@@ -4,6 +4,7 @@ package February2025Challenge;
 public class Feb3Problem3105LongestStrictlyIncreasingorStrictlyDecreasingSubarray {
     public static void main(String[] args) {
         int[]  nums = {1,4,3,3,2};
+        System.out.println(longestMonotonicSubarray(nums));
     }
     public static int longestMonotonicSubarray(int[] nums) {
         int incLength = 1, decLength = 1, maxLength = 1;
