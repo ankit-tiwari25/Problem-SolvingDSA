@@ -3,6 +3,7 @@ package February2025Challenge;
 public class Feb4Problem1800MaximumAscendingSubarraySum {
     public static void main(String[] args) {
         int[] nums = {10,20,30,5,10,50};
+        System.out.println(maxAscendingSum(nums));
     }
     public static int maxAscendingSum(int[] nums) {
           int curr = nums[0], ans = nums[0];
