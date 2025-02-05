@@ -2,7 +2,7 @@ package February2025Challenge;
 /* 1790. [Easy] Check if One String Swap Can Make Strings Equal */
 public class Feb5Problem1790CheckifOneStringSwapCanMakeStringsEqual {
     public static void main(String[] args) {
-        
+        String s1 = "bank", s2 = "kanb";
     }
     public static boolean areAlmostEqual(String s1, String s2) {
         int i=-1, j=-1;
