@@ -4,7 +4,7 @@ public class Feb5Problem1790CheckifOneStringSwapCanMakeStringsEqual {
     public static void main(String[] args) {
         
     }
-    public boolean areAlmostEqual(String s1, String s2) {
+    public static boolean areAlmostEqual(String s1, String s2) {
         int i=-1, j=-1;
         int cnt=0;
 
