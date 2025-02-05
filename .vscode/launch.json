@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb5Problem1790CheckifOneStringSwapCanMakeStringsEqual",
+            "request": "launch",
+            "mainClass": "February2025Challenge.Feb5Problem1790CheckifOneStringSwapCanMakeStringsEqual",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb3Problem3105LongestStrictlyIncreasingorStrictlyDecreasingSubarray",
             "request": "launch",
             "mainClass": "February2025Challenge.Feb3Problem3105LongestStrictlyIncreasingorStrictlyDecreasingSubarray",

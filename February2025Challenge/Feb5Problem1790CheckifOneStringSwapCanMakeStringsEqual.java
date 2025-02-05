@@ -3,6 +3,7 @@ package February2025Challenge;
 public class Feb5Problem1790CheckifOneStringSwapCanMakeStringsEqual {
     public static void main(String[] args) {
         String s1 = "bank", s2 = "kanb";
+        System.out.println(areAlmostEqual(s1, s2));
     }
     public static boolean areAlmostEqual(String s1, String s2) {
         int i=-1, j=-1;
