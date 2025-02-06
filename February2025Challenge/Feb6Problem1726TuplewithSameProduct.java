@@ -5,7 +5,8 @@ import java.util.HashMap;
 /* 1726.[Medium] Tuple with Same Product */
 public class Feb6Problem1726TuplewithSameProduct {
    public static void main(String[] args) {
-    
+    int[] nums = {2,3,4,6};
+    System.out.println(tupleSameProduct(nums));
    } 
     public static int tupleSameProduct(int[] nums) {
         HashMap<Integer, Integer> productCount = new HashMap<>();
