@@ -6,6 +6,8 @@ import java.util.Map;
 /* 3160.[Medium] Find the Number of Distinct Colors Among the Balls */
 public class Feb7Problem3160FindtheNumberofDistinctColorsAmongtheBalls {
     public static void main(String[] args) {
+        int  limit = 4;
+        int[][] queries = {{1,4},{2,5},{1,3},{3,4}};
         
     }
      public static int[] queryResults(int limit, int[][] queries) {
