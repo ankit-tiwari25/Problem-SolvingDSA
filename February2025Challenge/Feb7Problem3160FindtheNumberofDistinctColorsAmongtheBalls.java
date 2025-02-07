@@ -8,7 +8,7 @@ public class Feb7Problem3160FindtheNumberofDistinctColorsAmongtheBalls {
     public static void main(String[] args) {
         int  limit = 4;
         int[][] queries = {{1,4},{2,5},{1,3},{3,4}};
-        
+        display(queryResults(limit, queries));
     }
      public static int[] queryResults(int limit, int[][] queries) {
          Map<Integer, Integer> bal=new HashMap<>();
@@ -34,5 +34,11 @@ public class Feb7Problem3160FindtheNumberofDistinctColorsAmongtheBalls {
         }
         
         return res;
+    }
+    public static void display(int[] arr){
+        for(int i : arr){
+            System.out.print(i + " ");
+        }
+        System.out.println();
     }
 }
