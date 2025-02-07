@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb7Problem3160FindtheNumberofDistinctColorsAmongtheBalls",
+            "request": "launch",
+            "mainClass": "February2025Challenge.Feb7Problem3160FindtheNumberofDistinctColorsAmongtheBalls",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb6Problem1726TuplewithSameProduct",
             "request": "launch",
             "mainClass": "February2025Challenge.Feb6Problem1726TuplewithSameProduct",
