@@ -25,4 +25,8 @@ public class Feb8Problem2349DesignaNumberContainerSystem {
         res.computeIfAbsent(number, k -> new PriorityQueue<>()).offer(index);
         index_val.put(index, number);
     }
+    public static int find(int number) {
+        PriorityQueue<Integer> pq = res.getOrDefault(number, new PriorityQueue<>());
+        return pq.isEmpty() ? -1 : pq.peek();
+    }
 }
