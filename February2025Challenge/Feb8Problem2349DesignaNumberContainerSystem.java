@@ -15,4 +15,14 @@ public class Feb8Problem2349DesignaNumberContainerSystem {
         res = new HashMap<>();
         index_val = new HashMap<>();
     }
+    public static void change(int index, int number) {
+        if (index_val.containsKey(index)) {
+            int prevNum = index_val.get(index);
+            if (prevNum == number) return;
+            res.get(prevNum).remove(index);
+        }
+
+        res.computeIfAbsent(number, k -> new PriorityQueue<>()).offer(index);
+        index_val.put(index, number);
+    }
 }
