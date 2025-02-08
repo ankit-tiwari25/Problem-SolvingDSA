@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 public class Feb8Problem2349DesignaNumberContainerSystem {
-      private Map<Integer, PriorityQueue<Integer>> res;
-    private Map<Integer, Integer> index_val;
+      private static Map<Integer, PriorityQueue<Integer>> res;
+    private static Map<Integer, Integer> index_val;
 
     public static void main(String[] args) {
         
