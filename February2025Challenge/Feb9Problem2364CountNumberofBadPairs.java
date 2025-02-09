@@ -6,7 +6,8 @@ import java.util.Map;
 /* 2364.[Medium] Count Number of Bad Pairs  */
 public class Feb9Problem2364CountNumberofBadPairs {
     public static void main(String[] args) {
-        
+        int[]  nums = {4,1,3,3};
+        System.out.println(countBadPairs(nums));
     }
     public static long countBadPairs(int[] nums) {
         Map<Integer, Integer> bag = new HashMap<>();

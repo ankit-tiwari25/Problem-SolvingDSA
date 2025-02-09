@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb9Problem2364CountNumberofBadPairs",
+            "request": "launch",
+            "mainClass": "February2025Challenge.Feb9Problem2364CountNumberofBadPairs",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb7Problem3160FindtheNumberofDistinctColorsAmongtheBalls",
             "request": "launch",
             "mainClass": "February2025Challenge.Feb7Problem3160FindtheNumberofDistinctColorsAmongtheBalls",
