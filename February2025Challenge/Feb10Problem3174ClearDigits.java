@@ -4,7 +4,7 @@ package February2025Challenge;
 public class Feb10Problem3174ClearDigits {
     public static void main(String[] args) {
         String s = "cb34";
-        
+        System.out.println(clearDigits(s));
     }
     public static String clearDigits(String s) {
         StringBuilder stack = new StringBuilder();
