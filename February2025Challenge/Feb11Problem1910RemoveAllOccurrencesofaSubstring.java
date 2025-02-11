@@ -3,7 +3,7 @@ package February2025Challenge;
 // 1910. [Medium] Remove All Occurrences of a Substring
 public class Feb11Problem1910RemoveAllOccurrencesofaSubstring {
     public static void main(String[] args) {
-        
+       String s = "daabcbaabcbc", part = "abc"; 
     }
     public static String removeOccurrences(String s, String part) {
         char[] input = s.toCharArray();
