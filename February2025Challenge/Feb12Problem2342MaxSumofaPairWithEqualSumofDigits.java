@@ -3,8 +3,9 @@
 public class Feb12Problem2342MaxSumofaPairWithEqualSumofDigits {
     public static void main(String[] args) {
       int[]  nums = {18,43,36,13,7};
+      System.out.println(maximumSum(nums));
     }
-    public int maximumSum(int[] nums) {
+    public static int maximumSum(int[] nums) {
         int[] max = new int[82];
          int ans = -1;
          for (int x : nums) {
