@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb13Problem3066MinimumOperationstoExceedThresholdValueII",
+            "request": "launch",
+            "mainClass": "Feb13Problem3066MinimumOperationstoExceedThresholdValueII",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb12Problem2342MaxSumofaPairWithEqualSumofDigits",
             "request": "launch",
             "mainClass": "Feb12Problem2342MaxSumofaPairWithEqualSumofDigits",
