@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb15Problem2698FindthePunishmentNumberofanInteger",
+            "request": "launch",
+            "mainClass": "Feb15Problem2698FindthePunishmentNumberofanInteger",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb13Problem3066MinimumOperationstoExceedThresholdValueII",
             "request": "launch",
             "mainClass": "Feb13Problem3066MinimumOperationstoExceedThresholdValueII",
