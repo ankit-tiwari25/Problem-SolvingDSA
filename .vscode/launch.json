@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb16Problem1718ConstructtheLexicographicallyLargestValidSequence",
+            "request": "launch",
+            "mainClass": "Feb16Problem1718ConstructtheLexicographicallyLargestValidSequence",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb15Problem2698FindthePunishmentNumberofanInteger",
             "request": "launch",
             "mainClass": "Feb15Problem2698FindthePunishmentNumberofanInteger",
