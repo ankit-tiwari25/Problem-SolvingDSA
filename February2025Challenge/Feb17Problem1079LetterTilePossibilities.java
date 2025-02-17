@@ -2,6 +2,7 @@
 public class Feb17Problem1079LetterTilePossibilities {
     public static void main(String[] args) {
         String tiles = "AAB";
+        System.out.println(numTilePossibilities(tiles));
     }
     public static int numTilePossibilities(String tiles) {
         int[] counts = new int[26];
