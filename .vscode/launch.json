@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb17Problem1079LetterTilePossibilities",
+            "request": "launch",
+            "mainClass": "Feb17Problem1079LetterTilePossibilities",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb16Problem1718ConstructtheLexicographicallyLargestValidSequence",
             "request": "launch",
             "mainClass": "Feb16Problem1718ConstructtheLexicographicallyLargestValidSequence",
