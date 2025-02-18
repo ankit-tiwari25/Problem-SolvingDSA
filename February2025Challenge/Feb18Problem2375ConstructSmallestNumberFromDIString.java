@@ -3,7 +3,7 @@
 public class Feb18Problem2375ConstructSmallestNumberFromDIString {
     public static void main(String[] args) {
         String pattern = "IIIDIDDD";
-        
+        System.out.println(smallestNumber(pattern));
     }
     public static String smallestNumber(String pattern) {
         int n = pattern.length();
