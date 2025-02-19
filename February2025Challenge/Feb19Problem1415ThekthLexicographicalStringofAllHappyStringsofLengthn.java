@@ -3,6 +3,7 @@ public class Feb19Problem1415ThekthLexicographicalStringofAllHappyStringsofLengt
     static int n2;
     public static void main(String[] args) {
         int n = 1, k = 3;
+        System.out.println(getHappyString(n, k));
     }
     public static String getHappyString(int n, int k) {
         n2 = n;
