@@ -3,7 +3,7 @@ public class Feb19Problem1415ThekthLexicographicalStringofAllHappyStringsofLengt
     public static void main(String[] args) {
         
     }
-    public String dfs(StringBuilder prefix, int n, int k){
+    public static String dfs(StringBuilder prefix, int n, int k){
         if (n == 0)
             return prefix.toString();
         for (char c = 'a'; c <= 'c'; c++) {
