@@ -1,5 +1,6 @@
 /*1415. [Medium] The k-th Lexicographical String of All Happy Strings of Length n */
 public class Feb19Problem1415ThekthLexicographicalStringofAllHappyStringsofLengthn {
+    static int n2;
     public static void main(String[] args) {
         
     }
