@@ -2,7 +2,7 @@
 public class Feb19Problem1415ThekthLexicographicalStringofAllHappyStringsofLengthn {
     static int n2;
     public static void main(String[] args) {
-        
+        int n = 1, k = 3;
     }
     public static String getHappyString(int n, int k) {
         n2 = n;
