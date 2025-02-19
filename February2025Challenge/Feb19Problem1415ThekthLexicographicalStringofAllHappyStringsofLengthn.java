@@ -3,6 +3,10 @@ public class Feb19Problem1415ThekthLexicographicalStringofAllHappyStringsofLengt
     public static void main(String[] args) {
         
     }
+    public static String getHappyString(int n, int k) {
+        n2 = n;
+      return dfs(new StringBuilder(), n, k);
+  }
     public static String dfs(StringBuilder prefix, int n, int k){
         if (n == 0)
             return prefix.toString();
