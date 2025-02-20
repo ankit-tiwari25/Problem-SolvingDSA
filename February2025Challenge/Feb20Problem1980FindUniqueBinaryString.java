@@ -2,6 +2,7 @@
 public class Feb20Problem1980FindUniqueBinaryString {
     public static void main(String[] args) {
         String[] nums = {"01","10"};
+        System.out.println(findDifferentBinaryString(nums));
     }
     public static String findDifferentBinaryString(String[] nums) {
         StringBuilder result = new StringBuilder();
