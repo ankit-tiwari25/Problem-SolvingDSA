@@ -17,4 +17,20 @@ public class Feb21Problem1261FindElementsinaContaminatedBinaryTree {
         printTree(node.left);
         printTree(node.right);
     }
+    void solve1(TreeNode node){
+        if(node==null){
+            return;
+        }
+
+        if(node.left !=null){
+            node.left.val=2*node.val+1;                
+        }
+        if(node.right !=null){
+            node.right.val=2*node.val+2;
+        }
+
+        solve1(node.left);
+        solve1(node.right);
+
+    }
 }
