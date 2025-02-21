@@ -1,9 +1,10 @@
 public class Feb21Problem1261FindElementsinaContaminatedBinaryTree {
     TreeNode groot;
     public static void main(String[] args) {
+        TreeNode obj = new TreeNode();
         
     }
-    public TreeNode FindElements(TreeNode root) {
+    public void FindElements(TreeNode root) {
          if(root!=null && root.val==-1){
             root.val=0;                
         }
