@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.Set;
 
 public class Feb24Problem2467MostProfitablePathinaTree {
+    List<Integer> b2a = new ArrayList<>();
+    int maxSum = Integer.MIN_VALUE;
        public int mostProfitablePath(int[][] edges, int bob, int[] amount) {
           int n = amount.length;
 
