@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -36,6 +37,24 @@ public class Feb24Problem2467MostProfitablePathinaTree {
         visited.add(0);
         maxPathSum(0, graph, amount, visited, amount[0]);
         return maxSum;
+    }
+     private boolean dfs(int root, int target,  Map<Integer, Set<Integer>> graph, List<Integer> currPath, Set<Integer> visited) {
+        if (root == target) {
+            b2a = new ArrayList<>(currPath);
+            return true;
+        }
+        
+        for (int neighbor : graph.get(root)) {
+            if (visited.contains(neighbor)) continue;
+            visited.add(neighbor);
+            currPath.add(neighbor);
+            
+            if (dfs(neighbor, target, graph, currPath, visited)) return true;
+            
+            currPath.remove(currPath.size() - 1);
+            visited.remove(neighbor);
+        }
+        return false;
     }
     
 }
