@@ -56,5 +56,20 @@ public class Feb24Problem2467MostProfitablePathinaTree {
         }
         return false;
     }
+    private void maxPathSum(int root, Map<Integer, Set<Integer>> graph, int[] amount, Set<Integer> visited, int currSum) {
+        int cnt = 0;
+        for (int child : graph.get(root)) {
+            if (visited.contains(child)) continue;
+            
+            visited.add(child);
+            maxPathSum(child, graph, amount, visited, currSum + amount[child]);
+            visited.remove(child);
+            cnt++;
+            
+        }
+        // leafNode
+        if (cnt == 0) maxSum = Math.max(maxSum, currSum);
+        return;
+    }
     
 }
