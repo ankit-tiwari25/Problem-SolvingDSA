@@ -1,7 +1,7 @@
 /* 1524.[Medium] Number of Sub-arrays With Odd Sum */
 public class Feb25Problem1524NumberofSubarraysWithOddSum {
     public static void main(String[] args) {
-        int[] arr = {};
+        int[] arr = {1,2,3,4,5,6,7};
         System.out.println(numOfSubarrays(arr));
     }
     public static int numOfSubarrays(int[] arr) {

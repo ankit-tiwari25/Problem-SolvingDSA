@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb25Problem1524NumberofSubarraysWithOddSum",
+            "request": "launch",
+            "mainClass": "Feb25Problem1524NumberofSubarraysWithOddSum",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb20Problem1980FindUniqueBinaryString",
             "request": "launch",
             "mainClass": "Feb20Problem1980FindUniqueBinaryString",
