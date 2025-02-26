@@ -4,7 +4,7 @@ public class Feb25Problem1524NumberofSubarraysWithOddSum {
         int[] arr = {1,2,3,4,5,6,7};
         System.out.println(numOfSubarrays(arr));
     }
-    public static int numOfSubarrays(int[] arr) {
+    public static int numOfSubarrays(int[] arr) {j
         int MOD = 1000000007;
        int n = arr.length;
        int oddCount = 0, evenCount = 1; // Initialize counts for subarrays with odd and even sums
