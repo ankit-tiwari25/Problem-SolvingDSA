@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb26Problem1749MaximumAbsoluteSumofAnySubarray",
+            "request": "launch",
+            "mainClass": "Feb26Problem1749MaximumAbsoluteSumofAnySubarray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb25Problem1524NumberofSubarraysWithOddSum",
             "request": "launch",
             "mainClass": "Feb25Problem1524NumberofSubarraysWithOddSum",
