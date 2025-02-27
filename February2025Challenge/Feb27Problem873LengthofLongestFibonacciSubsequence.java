@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Feb27Problem873LengthofLongestFibonacciSubsequence {
-     public int lenLongestFibSubseq(int[] arr) {
+     public static int lenLongestFibSubseq(int[] arr) {
          int n = arr.length;
         // Store array elements in set for O(1) lookup
         Set<Integer> numSet = new HashSet<>();
