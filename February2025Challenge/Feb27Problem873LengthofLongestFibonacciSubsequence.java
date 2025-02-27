@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class Feb27Problem873LengthofLongestFibonacciSubsequence {
     public static void main(String[] args) {
-        
+        int[] arr = {1,2,3,4,5,6,7,8};
     }
      public static int lenLongestFibSubseq(int[] arr) {
          int n = arr.length;
