@@ -2,6 +2,10 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 /* 1092.[Hard] Shortest Common Supersequence  */
 public class Feb28Problem1092ShortestCommonSupersequence {
+    public static void main(String[] args) {
+        String str1 = "abac", str2 = "cab";
+        
+    }
      public String shortestCommonSupersequence(String str1, String str2) {
          String res = "";
         try{
