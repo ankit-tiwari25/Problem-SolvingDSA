@@ -4,9 +4,9 @@ import java.util.concurrent.FutureTask;
 public class Feb28Problem1092ShortestCommonSupersequence {
     public static void main(String[] args) {
         String str1 = "abac", str2 = "cab";
-        
+        System.out.println(shortestCommonSupersequence(str1, str2));
     }
-     public String shortestCommonSupersequence(String str1, String str2) {
+     public static String shortestCommonSupersequence(String str1, String str2) {
          String res = "";
         try{
             Callable<String> task = () -> generateLCS(str1, str2);

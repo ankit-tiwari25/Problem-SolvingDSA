@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Feb28Problem1092ShortestCommonSupersequence",
+            "request": "launch",
+            "mainClass": "Feb28Problem1092ShortestCommonSupersequence",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb27Problem873LengthofLongestFibonacciSubsequence",
             "request": "launch",
             "mainClass": "Feb27Problem873LengthofLongestFibonacciSubsequence",
