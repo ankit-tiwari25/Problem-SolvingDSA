@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March1Problem2460ApplyOperationstoanArray",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March1Problem2460ApplyOperationstoanArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Feb28Problem1092ShortestCommonSupersequence",
             "request": "launch",
             "mainClass": "Feb28Problem1092ShortestCommonSupersequence",
