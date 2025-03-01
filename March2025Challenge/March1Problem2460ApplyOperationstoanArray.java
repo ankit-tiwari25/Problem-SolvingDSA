@@ -1,6 +1,11 @@
 package March2025Challenge;
 /* 2460.[Easy] Apply Operations to an Array */
 public class March1Problem2460ApplyOperationstoanArray {
+    public static void main(String[] args) {
+        int[] arr = {1,2,2,1,1,0};
+        
+
+    }
     public static int[] applyOperations(int[] nums) {
         int[] result = new int[nums.length];
         int count = 0;
