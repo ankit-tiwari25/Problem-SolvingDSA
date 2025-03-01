@@ -29,6 +29,9 @@ public class March1Problem2460ApplyOperationstoanArray {
     } 
 
     public static void display(int[] arr){
-        
+        for(int i : arr){
+            System.out.print( " " + i);
+        }
+        System.out.println();
     }
 }
