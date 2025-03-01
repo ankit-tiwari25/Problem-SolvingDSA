@@ -27,4 +27,8 @@ public class March1Problem2460ApplyOperationstoanArray {
         }
         return result; 
     } 
+
+    public static void display(int[] arr){
+        
+    }
 }
