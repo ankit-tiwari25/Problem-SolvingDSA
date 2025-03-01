@@ -3,7 +3,7 @@ package March2025Challenge;
 public class March1Problem2460ApplyOperationstoanArray {
     public static void main(String[] args) {
         int[] arr = {1,2,2,1,1,0};
-        
+        display(applyOperations(arr));
 
     }
     public static int[] applyOperations(int[] nums) {
