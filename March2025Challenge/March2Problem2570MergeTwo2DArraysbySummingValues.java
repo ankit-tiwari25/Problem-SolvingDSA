@@ -6,6 +6,8 @@ import java.util.List;
 /* 2570.[Easy] Merge Two 2D Arrays by Summing Values */
 public class March2Problem2570MergeTwo2DArraysbySummingValues {
     public static void main(String[] args) {
+        int[][]  nums1 = {{1,2},{2,3},{4,5}};
+        int[][]  nums2 = {{1,4},{3,2},{4,1}};
         
     }
      public static int[][] mergeArrays(int[][] nums1, int[][] nums2) {
