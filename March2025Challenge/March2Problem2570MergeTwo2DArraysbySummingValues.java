@@ -57,4 +57,8 @@ public class March2Problem2570MergeTwo2DArraysbySummingValues {
         
         return result; 
     }
+
+    public static void display(int[][] arr){
+        
+    }
 }
