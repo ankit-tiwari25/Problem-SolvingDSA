@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March3Problem2161PartitionArrayAccordingtoGivenPivot",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March3Problem2161PartitionArrayAccordingtoGivenPivot",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March2Problem2570MergeTwo2DArraysbySummingValues",
             "request": "launch",
             "mainClass": "March2025Challenge.March2Problem2570MergeTwo2DArraysbySummingValues",
