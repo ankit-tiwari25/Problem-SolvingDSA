@@ -4,4 +4,13 @@ public class March4Problem1780CheckifNumberisaSumofPowersofThree {
     public static void main(String[] args) {
         
     }
+    public boolean checkPowersOfThree(int n) {
+        while (n > 0) {
+           if (n % 3 == 2) {
+               return false;
+           }
+           n /= 3;
+       }
+       return true;
+   }
 }
