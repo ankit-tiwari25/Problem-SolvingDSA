@@ -3,9 +3,9 @@ package March2025Challenge;
 public class March4Problem1780CheckifNumberisaSumofPowersofThree {
     public static void main(String[] args) {
         int n = 12;
-        
+
     }
-    public boolean checkPowersOfThree(int n) {
+    public static boolean checkPowersOfThree(int n) {
         while (n > 0) {
            if (n % 3 == 2) {
                return false;
