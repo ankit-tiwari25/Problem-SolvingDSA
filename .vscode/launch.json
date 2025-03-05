@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March5Problem2579CountTotalNumberofColoredCells",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March5Problem2579CountTotalNumberofColoredCells",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March4Problem1780CheckifNumberisaSumofPowersofThree",
             "request": "launch",
             "mainClass": "March2025Challenge.March4Problem1780CheckifNumberisaSumofPowersofThree",
