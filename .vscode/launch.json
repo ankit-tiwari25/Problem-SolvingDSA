@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March6Problem2965FindMissingandRepeatedValues",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March6Problem2965FindMissingandRepeatedValues",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March5Problem2579CountTotalNumberofColoredCells",
             "request": "launch",
             "mainClass": "March2025Challenge.March5Problem2579CountTotalNumberofColoredCells",
