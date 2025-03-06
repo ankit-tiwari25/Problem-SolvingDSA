@@ -26,4 +26,11 @@ public class March6Problem2965FindMissingandRepeatedValues {
 
        return new int[]{repeated, missing};
    }
+   public static void display(int[] arr){
+    for(int i : arr){
+        System.out.print( " " + i);
+    }
+    System.out.println();
+    }
+
 }
