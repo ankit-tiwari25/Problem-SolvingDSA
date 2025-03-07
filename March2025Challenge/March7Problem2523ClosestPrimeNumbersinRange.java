@@ -9,7 +9,7 @@ public class March7Problem2523ClosestPrimeNumbersinRange {
     public static void main(String[] args) {
         
     }
-     public int[] closestPrimes(int left, int right) {
+     public static int[] closestPrimes(int left, int right) {
               boolean[] sieve = new boolean[right + 1];
         Arrays.fill(sieve, true);
         sieve[0] = sieve[1] = false;
