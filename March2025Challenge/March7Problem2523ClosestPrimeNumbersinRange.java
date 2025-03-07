@@ -8,6 +8,7 @@ import java.util.List;
 public class March7Problem2523ClosestPrimeNumbersinRange {
     public static void main(String[] args) {
         int left = 10, right = 19;
+        display(closestPrimes(left, right));
     }
      public static int[] closestPrimes(int left, int right) {
               boolean[] sieve = new boolean[right + 1];
