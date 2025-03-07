@@ -48,4 +48,10 @@ public class March7Problem2523ClosestPrimeNumbersinRange {
         
         return result;
     }
+    public static void display(int[] arr){
+        for(int i : arr){
+            System.out.print( " " + i);
+        }
+        System.out.println();
+    }
 }
