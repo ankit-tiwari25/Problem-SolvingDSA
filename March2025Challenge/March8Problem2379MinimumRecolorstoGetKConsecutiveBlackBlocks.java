@@ -1,7 +1,8 @@
 /* 2379. [Easy] Minimum Recolors to Get K Consecutive Black Blocks */
 public class March8Problem2379MinimumRecolorstoGetKConsecutiveBlackBlocks {
     public static void main(String[] args) {
-        
+       String blocks = "WBBWWBBWBW";
+       int k = 7; 
     }
     public static int minimumRecolors(String blocks, int k) {
         int blackCount = 0, ans = Integer.MAX_VALUE;
