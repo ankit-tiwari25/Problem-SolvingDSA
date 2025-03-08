@@ -3,7 +3,7 @@ public class March8Problem2379MinimumRecolorstoGetKConsecutiveBlackBlocks {
     public static void main(String[] args) {
         
     }
-    public int minimumRecolors(String blocks, int k) {
+    public static int minimumRecolors(String blocks, int k) {
         int blackCount = 0, ans = Integer.MAX_VALUE;
       
           for (int i = 0; i < blocks.length(); i++) {
