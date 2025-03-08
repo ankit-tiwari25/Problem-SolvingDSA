@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March8Problem2379MinimumRecolorstoGetKConsecutiveBlackBlocks",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March8Problem2379MinimumRecolorstoGetKConsecutiveBlackBlocks",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March7Problem2523ClosestPrimeNumbersinRange",
             "request": "launch",
             "mainClass": "March2025Challenge.March7Problem2523ClosestPrimeNumbersinRange",
