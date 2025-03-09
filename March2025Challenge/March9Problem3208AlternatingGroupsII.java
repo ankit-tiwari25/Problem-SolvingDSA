@@ -2,7 +2,8 @@ package March2025Challenge;
 /* 3208.[Medium] Alternating Groups II */
 public class March9Problem3208AlternatingGroupsII {
     public static void main(String[] args) {
-        
+      int[]  colors ={0,1,0,0,1,0,1};
+      int k = 6;
     }
     public static int numberOfAlternatingGroups(int[] colors, int k) {
         int n = colors.length;
