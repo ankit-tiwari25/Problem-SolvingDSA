@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March9Problem3208AlternatingGroupsII",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March9Problem3208AlternatingGroupsII",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March8Problem2379MinimumRecolorstoGetKConsecutiveBlackBlocks",
             "request": "launch",
             "mainClass": "March2025Challenge.March8Problem2379MinimumRecolorstoGetKConsecutiveBlackBlocks",
