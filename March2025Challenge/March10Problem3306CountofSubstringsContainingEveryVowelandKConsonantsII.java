@@ -5,7 +5,7 @@ public class March10Problem3306CountofSubstringsContainingEveryVowelandKConsonan
     public static void main(String[] args) {
         
     }
-    public long countOfSubstrings(String word, int k) {
+    public static long countOfSubstrings(String word, int k) {
         int[][] frequencies = new int[2][128];
          frequencies[0]['a'] = 1;
          frequencies[0]['e'] = 1;
