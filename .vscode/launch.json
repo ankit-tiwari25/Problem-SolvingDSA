@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March10Problem3306CountofSubstringsContainingEveryVowelandKConsonantsII",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March10Problem3306CountofSubstringsContainingEveryVowelandKConsonantsII",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March9Problem3208AlternatingGroupsII",
             "request": "launch",
             "mainClass": "March2025Challenge.March9Problem3208AlternatingGroupsII",
