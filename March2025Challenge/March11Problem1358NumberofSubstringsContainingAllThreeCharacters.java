@@ -4,7 +4,7 @@ public class March11Problem1358NumberofSubstringsContainingAllThreeCharacters {
     public static void main(String[] args) {
         
     }
-    public int numberOfSubstrings(String s) {
+    public static int numberOfSubstrings(String s) {
         int count = 0;
      int left = 0;
      int[] charCount = new int[3];
