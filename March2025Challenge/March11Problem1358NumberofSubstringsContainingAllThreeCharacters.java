@@ -3,6 +3,7 @@ package March2025Challenge;
 public class March11Problem1358NumberofSubstringsContainingAllThreeCharacters {
     public static void main(String[] args) {
         String  s = "abcabc";
+        System.out.println(numberOfSubstrings(s));
     }
     public static int numberOfSubstrings(String s) {
         int count = 0;
