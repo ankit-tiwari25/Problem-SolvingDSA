@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March11Problem1358NumberofSubstringsContainingAllThreeCharacters",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March11Problem1358NumberofSubstringsContainingAllThreeCharacters",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March10Problem3306CountofSubstringsContainingEveryVowelandKConsonantsII",
             "request": "launch",
             "mainClass": "March2025Challenge.March10Problem3306CountofSubstringsContainingEveryVowelandKConsonantsII",
