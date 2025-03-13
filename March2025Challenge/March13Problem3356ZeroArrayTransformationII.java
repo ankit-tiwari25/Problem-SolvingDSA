@@ -7,6 +7,7 @@ public class March13Problem3356ZeroArrayTransformationII {
     public static void main(String[] args) {
       int[]  nums = {2,0,2};
       int[][] queries = {{0,2,1},{0,2,1},{1,1,3}};
+      System.out.println(minZeroArray(nums, queries));
     }
      public static int minZeroArray(int[] nums, int[][] queries) {
          int n = nums.length;
