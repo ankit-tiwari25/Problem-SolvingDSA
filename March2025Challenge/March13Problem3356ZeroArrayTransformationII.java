@@ -20,7 +20,7 @@ public class March13Problem3356ZeroArrayTransformationII {
         }
         return left;
     }
-    private boolean canMakeZeroArray(int k, int[] nums, int[][] queries) {
+    private static boolean canMakeZeroArray(int k, int[] nums, int[][] queries) {
         int n = nums.length;
         int[] diff = new int[n + 1];
         for (int i = 0; i < k; i++) {
