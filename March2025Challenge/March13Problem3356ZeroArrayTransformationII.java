@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /* 3356.[Medium] Zero Array Transformation II */
 public class March13Problem3356ZeroArrayTransformationII {
-     public int minZeroArray(int[] nums, int[][] queries) {
+     public static int minZeroArray(int[] nums, int[][] queries) {
          int n = nums.length;
         
         if (Arrays.stream(nums).allMatch(x -> x == 0)) return 0;
