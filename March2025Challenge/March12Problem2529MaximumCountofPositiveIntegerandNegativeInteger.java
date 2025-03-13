@@ -2,7 +2,8 @@ package March2025Challenge;
 /* 2529.[Easy] Maximum Count of Positive Integer and Negative Integer */
 public class March12Problem2529MaximumCountofPositiveIntegerandNegativeInteger {
     public static void main(String[] args) {
-        
+        int[] nums = {-2,-1,-1,1,2,3};
+        System.out.println(maximumCount(nums));
     }
     public static int maximumCount(int[] nums) {
         int negCount = binarySearch(nums, 0);
