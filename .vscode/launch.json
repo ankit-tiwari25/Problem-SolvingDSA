@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March14Problem2226MaximumCandiesAllocatedtoKChildren",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March14Problem2226MaximumCandiesAllocatedtoKChildren",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March13Problem3356ZeroArrayTransformationII",
             "request": "launch",
             "mainClass": "March2025Challenge.March13Problem3356ZeroArrayTransformationII",

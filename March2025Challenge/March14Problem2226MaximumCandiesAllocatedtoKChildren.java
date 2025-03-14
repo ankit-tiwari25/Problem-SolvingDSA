@@ -2,7 +2,9 @@ package March2025Challenge;
 /* 2226. [Medium] Maximum Candies Allocated to K Children */
 public class March14Problem2226MaximumCandiesAllocatedtoKChildren {
     public static void main(String[] args) {
-        
+       int[] candies = {5,8,6};
+       int  k = 3;
+       System.out.println(maximumCandies(candies, k));
     }
     public static int maximumCandies(int[] candies, long k) {
         int left = 1, right = 10_000_000;
