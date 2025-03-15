@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /* 2560.[Medium] House Robber IV */
 public class March15Problem2560HouseRobberIV {
-    private boolean canStealKHouses(int[] nums, int k, int capability) {
+    private static boolean canStealKHouses(int[] nums, int k, int capability) {
         int count = 0;
         int i = 0;
         while (i < nums.length) {
