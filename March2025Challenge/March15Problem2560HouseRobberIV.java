@@ -1,5 +1,7 @@
 package March2025Challenge;
 
+import java.util.Arrays;
+
 /* 2560.[Medium] House Robber IV */
 public class March15Problem2560HouseRobberIV {
     private boolean canStealKHouses(int[] nums, int k, int capability) {
@@ -14,5 +16,20 @@ public class March15Problem2560HouseRobberIV {
             }
         }
         return count >= k;
+    }
+       public int minCapability(int[] nums, int k) {
+        int left = Arrays.stream(nums).min().getAsInt();
+        int right = Arrays.stream(nums).max().getAsInt();
+        
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (canStealKHouses(nums, k, mid)) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+        }
+        
+        return left;
     }
 }
