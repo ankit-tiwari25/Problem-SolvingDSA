@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 /* 2560.[Medium] House Robber IV */
 public class March15Problem2560HouseRobberIV {
+    public static void main(String[] args) {
+      int[]  nums = {2,3,5,9};
+      int k = 2;
+      System.out.println(minCapability(nums, k));
+    }
     private static boolean canStealKHouses(int[] nums, int k, int capability) {
         int count = 0;
         int i = 0;
