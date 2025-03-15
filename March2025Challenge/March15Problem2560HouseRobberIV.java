@@ -17,7 +17,7 @@ public class March15Problem2560HouseRobberIV {
         }
         return count >= k;
     }
-       public int minCapability(int[] nums, int k) {
+       public static int minCapability(int[] nums, int k) {
         int left = Arrays.stream(nums).min().getAsInt();
         int right = Arrays.stream(nums).max().getAsInt();
         
