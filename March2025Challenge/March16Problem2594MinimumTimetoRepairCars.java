@@ -4,6 +4,7 @@ public class March16Problem2594MinimumTimetoRepairCars {
     public static void main(String[] args) {
         int[] ranks = {4,2,3,1};
         int cars = 10;
+        System.out.println(repairCars(ranks, cars));
     }
     public static long repairCars(int[] ranks, int cars) {
         long l = 1, r = (long) 1e14;
