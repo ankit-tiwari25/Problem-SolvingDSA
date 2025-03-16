@@ -13,4 +13,13 @@ public class March16Problem2594MinimumTimetoRepairCars {
        }
        return l;
    }
+   public boolean timeIsSuff(int[] ranks, int cars, long minGiven) {
+    long carsDone = 0;
+    for (int r : ranks) {
+        long c2 = minGiven / r;
+        long c = (long) Math.sqrt(c2);
+        carsDone += c;
+    }
+    return carsDone >= cars;
+}
 }
