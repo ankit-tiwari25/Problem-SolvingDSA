@@ -1,6 +1,9 @@
 package March2025Challenge;
 /* 2594.[Medium] Minimum Time to Repair Cars */
 public class March16Problem2594MinimumTimetoRepairCars {
+    public static void main(String[] args) {
+        
+    }
     public static long repairCars(int[] ranks, int cars) {
         long l = 1, r = (long) 1e14;
        while (l < r) {
