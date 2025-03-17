@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March17Problem2206DivideArrayIntoEqualPairs",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March17Problem2206DivideArrayIntoEqualPairs",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March16Problem2594MinimumTimetoRepairCars",
             "request": "launch",
             "mainClass": "March2025Challenge.March16Problem2594MinimumTimetoRepairCars",
