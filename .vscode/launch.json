@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March18Problem2401LongestNiceSubarray",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March18Problem2401LongestNiceSubarray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March17Problem2206DivideArrayIntoEqualPairs",
             "request": "launch",
             "mainClass": "March2025Challenge.March17Problem2206DivideArrayIntoEqualPairs",

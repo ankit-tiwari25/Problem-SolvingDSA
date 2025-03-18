@@ -4,6 +4,7 @@ package March2025Challenge;
 public class March18Problem2401LongestNiceSubarray {
     public static void main(String[] args) {
         int[] nums = {1,3,8,48,10};
+        System.out.println(longestNiceSubarray(nums));
     }
     public static int longestNiceSubarray(int[] nums) {
         int n = nums.length;
