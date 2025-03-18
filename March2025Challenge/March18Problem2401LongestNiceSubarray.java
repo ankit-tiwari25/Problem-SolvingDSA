@@ -3,7 +3,7 @@ package March2025Challenge;
 /* 2401.[Medium] Longest Nice Subarray */
 public class March18Problem2401LongestNiceSubarray {
     public static void main(String[] args) {
-        int[] nums = [1,3,8,48,10];
+        int[] nums = {1,3,8,48,10};
     }
     public int longestNiceSubarray(int[] nums) {
         int n = nums.length;
