@@ -4,7 +4,7 @@ public class March19Problem3191MinimumOperationstoMakeBinaryArrayElementsEqualto
     public static void main(String[] args) {
         
     }
-    public int minOperations(int[] nums) {
+    public static int minOperations(int[] nums) {
         int count = 0;
       int n = nums.length;
 
