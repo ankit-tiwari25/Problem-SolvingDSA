@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March19Problem3191MinimumOperationstoMakeBinaryArrayElementsEqualtoOneI",
+            "request": "launch",
+            "mainClass": "March2025Challenge.March19Problem3191MinimumOperationstoMakeBinaryArrayElementsEqualtoOneI",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March18Problem2401LongestNiceSubarray",
             "request": "launch",
             "mainClass": "March2025Challenge.March18Problem2401LongestNiceSubarray",
