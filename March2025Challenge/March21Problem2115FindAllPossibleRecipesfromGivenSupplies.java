@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class March21Problem2115FindAllPossibleRecipesfromGivenSupplies {
-    private Set<String> availableSupplies;
+    private static Set<String> availableSupplies;
     private Map<String, List<String>> recipeToIngredients;
     private Map<String, Integer> visited;
     private List<String> result;
