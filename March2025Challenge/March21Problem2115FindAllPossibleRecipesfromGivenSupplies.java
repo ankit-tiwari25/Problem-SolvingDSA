@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class March21Problem2115FindAllPossibleRecipesfromGivenSupplies {
     private static Set<String> availableSupplies;
-    private Map<String, List<String>> recipeToIngredients;
+    private static Map<String, List<String>> recipeToIngredients;
     private Map<String, Integer> visited;
     private List<String> result;
     public static void main(String[] args) {
