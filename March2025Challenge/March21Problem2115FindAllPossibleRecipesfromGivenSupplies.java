@@ -26,4 +26,30 @@ public class March21Problem2115FindAllPossibleRecipesfromGivenSupplies {
 
         return result;
     }
+    private boolean canMake(String recipe) {
+        if (visited.containsKey(recipe)) {
+            return visited.get(recipe) == 1;
+        }
+
+        if (availableSupplies.contains(recipe)) {
+            return true;
+        }
+
+        if (!recipeToIngredients.containsKey(recipe)) {
+            return false;
+        }
+
+        visited.put(recipe, 0);
+
+        for (String ingredient : recipeToIngredients.get(recipe)) {
+            if (!canMake(ingredient)) {
+                visited.put(recipe, -1);
+                return false;
+            }
+        }
+
+        visited.put(recipe, 1);
+        result.add(recipe);
+        return true;
+    }
 }
