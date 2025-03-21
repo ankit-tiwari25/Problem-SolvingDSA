@@ -14,7 +14,9 @@ public class March21Problem2115FindAllPossibleRecipesfromGivenSupplies {
     private static Map<String, Integer> visited;
     private static List<String> result;
     public static void main(String[] args) {
-        
+        String[] recipes = {"bread"};
+        String[][] ingredients = {{"yeast","flour"}};
+        String[] supplies = {"yeast","flour","corn"};
     }
     public static List<String> findAllRecipes(String[] recipes, List<List<String>> ingredients, String[] supplies) {
         availableSupplies = new HashSet<>(Arrays.asList(supplies));
