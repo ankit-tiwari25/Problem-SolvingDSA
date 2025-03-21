@@ -35,7 +35,7 @@ public class March21Problem2115FindAllPossibleRecipesfromGivenSupplies {
 
         return result;
     }
-    private boolean canMake(String recipe) {
+    private static boolean canMake(String recipe) {
         if (visited.containsKey(recipe)) {
             return visited.get(recipe) == 1;
         }
