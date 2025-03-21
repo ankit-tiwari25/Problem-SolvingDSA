@@ -17,6 +17,7 @@ public class March21Problem2115FindAllPossibleRecipesfromGivenSupplies {
         String[] recipes = {"bread"};
         String[][] ingredients = {{"yeast","flour"}};
         String[] supplies = {"yeast","flour","corn"};
+        List<String> ans = findAllRecipes(recipes, null, supplies);
     }
     public static List<String> findAllRecipes(String[] recipes, List<List<String>> ingredients, String[] supplies) {
         availableSupplies = new HashSet<>(Arrays.asList(supplies));
