@@ -30,4 +30,16 @@ public class March22Problem2685CounttheNumberofCompleteComponents {
         }
         return count;
     }
+    public int  dfs(int node,int []vis,ArrayList<ArrayList<Integer>> adj,List<Integer> ls){
+        vis[node]=1;
+        ls.add(node);
+        int ct=0;
+        for(int i :adj.get(node)){
+            if(vis[i]==0){
+                ct+=dfs(i,vis,adj,ls);
+            }
+            ct++;
+        }
+        return ct;
+    }
 }
