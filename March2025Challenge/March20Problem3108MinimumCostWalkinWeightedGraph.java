@@ -10,7 +10,7 @@ public class March20Problem3108MinimumCostWalkinWeightedGraph {
         }
         return parent[node];
     }
-    public int[] minimumCost(int n, int[][] edges, int[][] query) {
+    public static int[] minimumCost(int n, int[][] edges, int[][] query) {
         int[] parent = new int[n];
          int[] minPathCost = new int[n];
          Arrays.fill(minPathCost, -1);

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March22Problem2685CounttheNumberofCompleteComponents",
+            "request": "launch",
+            "mainClass": "March22Problem2685CounttheNumberofCompleteComponents",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March19Problem3191MinimumOperationstoMakeBinaryArrayElementsEqualtoOneI",
             "request": "launch",
             "mainClass": "March2025Challenge.March19Problem3191MinimumOperationstoMakeBinaryArrayElementsEqualtoOneI",
