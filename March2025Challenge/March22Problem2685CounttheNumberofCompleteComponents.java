@@ -7,6 +7,7 @@ public class March22Problem2685CounttheNumberofCompleteComponents {
     public static void main(String[] args) {
      int   n = 6;
      int[][] edges = {{0,1},{0,2},{1,2},{3,4}};
+     System.out.println(countCompleteComponents(n, edges));
     }
      public static int countCompleteComponents(int n, int[][] edges) {
           ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
