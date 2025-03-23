@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March23Problem1976NumberofWaystoArriveatDestination",
+            "request": "launch",
+            "mainClass": "March23Problem1976NumberofWaystoArriveatDestination",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March22Problem2685CounttheNumberofCompleteComponents",
             "request": "launch",
             "mainClass": "March22Problem2685CounttheNumberofCompleteComponents",
