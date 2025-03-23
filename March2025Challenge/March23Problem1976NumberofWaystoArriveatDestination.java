@@ -10,7 +10,7 @@ public class March23Problem1976NumberofWaystoArriveatDestination {
     public static void main(String[] args) {
         
     }
-     public int countPaths(int n, int[][] roads) {
+     public static int countPaths(int n, int[][] roads) {
           List<List<int[]>> graph = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             graph.add(new ArrayList<>());
