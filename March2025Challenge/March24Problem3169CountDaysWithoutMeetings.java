@@ -8,7 +8,9 @@ import java.util.List;
 
 public class March24Problem3169CountDaysWithoutMeetings {
     public static void main(String[] args) {
-        
+      int  days = 10;
+      int[][]  meetings = {{5,7},{1,3},{9,10}};
+      System.out.println(countDays(days, meetings));
     }
      public static int countDays(int days, int[][] meetings) {
           Arrays.sort(meetings, Comparator.comparingInt(a -> a[0]));
