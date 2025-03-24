@@ -10,7 +10,7 @@ public class March24Problem3169CountDaysWithoutMeetings {
     public static void main(String[] args) {
         
     }
-     public int countDays(int days, int[][] meetings) {
+     public static int countDays(int days, int[][] meetings) {
           Arrays.sort(meetings, Comparator.comparingInt(a -> a[0]));
 
         List<int[]> mergedMeetings = new ArrayList<>();
