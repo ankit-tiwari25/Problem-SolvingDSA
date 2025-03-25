@@ -5,7 +5,9 @@ import java.util.Arrays;
 
 public class March25Problem3394CheckifGridcanbeCutintoSections {
     public static void main(String[] args) {
-        
+        int n = 5;
+        int[][] rectangles = {{1,0,5,2},{0,2,2,4},{3,2,5,3},{0,4,4,5}};
+        System.out.println(checkValidCuts(n, rectangles));
     }
     public static boolean checkValidCuts(int n, int[][] rectangles) {
         int[][] xIntervals = new int[rectangles.length][2];

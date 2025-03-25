@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March25Problem3394CheckifGridcanbeCutintoSections",
+            "request": "launch",
+            "mainClass": "March25Problem3394CheckifGridcanbeCutintoSections",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March24Problem3169CountDaysWithoutMeetings",
             "request": "launch",
             "mainClass": "March24Problem3169CountDaysWithoutMeetings",
