@@ -1,5 +1,8 @@
 
 /* 3394. [Medium] Check if Grid can be Cut into Sections */
+
+import java.util.Arrays;
+
 public class March25Problem3394CheckifGridcanbeCutintoSections {
     public static void main(String[] args) {
         
@@ -17,4 +20,20 @@ public class March25Problem3394CheckifGridcanbeCutintoSections {
  
          return check(xIntervals) || check(yIntervals); 
      }
+
+      private static boolean check(int[][] intervals) {
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+        
+        int sections = 0;
+        int maxEnd = intervals[0][1];
+
+        for (int[] interval : intervals) {
+            if (maxEnd <= interval[0]) {
+                sections++;
+            }
+            maxEnd = Math.max(maxEnd, interval[1]);
+        }
+
+        return sections >= 2;
+    }
 }
