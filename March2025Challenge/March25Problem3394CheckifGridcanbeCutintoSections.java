@@ -1,5 +1,4 @@
 
-/* 3394. [Medium] Check if Grid can be Cut into Sections */
 
 import java.util.Arrays;
 /* 3394. [Medium] Check if Grid can be Cut into Sections */
