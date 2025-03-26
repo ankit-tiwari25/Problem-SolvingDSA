@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March26Problem2033MinimumOperationstoMakeaUniValueGrid",
+            "request": "launch",
+            "mainClass": "March26Problem2033MinimumOperationstoMakeaUniValueGrid",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March25Problem3394CheckifGridcanbeCutintoSections",
             "request": "launch",
             "mainClass": "March25Problem3394CheckifGridcanbeCutintoSections",
