@@ -8,7 +8,7 @@ public class March26Problem2033MinimumOperationstoMakeaUniValueGrid {
     public static void main(String[] args) {
         
     }
-     public int minOperations(int[][] grid, int x) {
+     public static int minOperations(int[][] grid, int x) {
         List<Integer> values = new ArrayList<>();
         
         for (int[] row : grid) {
