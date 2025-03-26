@@ -1,9 +1,8 @@
-/* 2033.[Medium] Minimum Operations to Make a Uni-Value Grid */
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
+/* 2033.[Medium] Minimum Operations to Make a Uni-Value Grid */
 public class March26Problem2033MinimumOperationstoMakeaUniValueGrid {
     public static void main(String[] args) {
         int[][] grid = {{2,4},{6,8}};
