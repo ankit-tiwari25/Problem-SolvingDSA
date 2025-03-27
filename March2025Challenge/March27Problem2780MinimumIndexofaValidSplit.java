@@ -6,6 +6,7 @@ import java.util.List;
 public class March27Problem2780MinimumIndexofaValidSplit {
     public static void main(String[] args) {
         int[] nums = {1,2,2,2};
+        System.out.println(minimumIndex(null));
     }
     public static int minimumIndex(List<Integer> list) {
         int n = list.size();
