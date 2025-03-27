@@ -1,12 +1,14 @@
 
 /* 2780.[Medium] Minimum Index of a Valid Split */
 
+import java.util.Arrays;
 import java.util.List;
 
 public class March27Problem2780MinimumIndexofaValidSplit {
     public static void main(String[] args) {
-        int[] nums = {1,2,2,2};
-        System.out.println(minimumIndex(null));
+        Integer[] n = {1,2,2,2};
+        List<Integer> nums = Arrays.asList(n);
+        System.out.println(minimumIndex(nums));
     }
     public static int minimumIndex(List<Integer> list) {
         int n = list.size();
