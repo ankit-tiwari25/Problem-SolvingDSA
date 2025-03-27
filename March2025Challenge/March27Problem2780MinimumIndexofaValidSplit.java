@@ -7,7 +7,7 @@ public class March27Problem2780MinimumIndexofaValidSplit {
     public static void main(String[] args) {
         
     }
-    public int minimumIndex(List<Integer> list) {
+    public static int minimumIndex(List<Integer> list) {
         int n = list.size();
         int max = Integer.MIN_VALUE;
         int count = 0;
