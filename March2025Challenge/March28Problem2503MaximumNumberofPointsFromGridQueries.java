@@ -50,4 +50,10 @@ public class March28Problem2503MaximumNumberofPointsFromGridQueries {
         }
         return result;   
     }
+    public static void display(int[] arr){
+        for(int i : arr){
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
 }
