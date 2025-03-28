@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March28Problem2503MaximumNumberofPointsFromGridQueries",
+            "request": "launch",
+            "mainClass": "March28Problem2503MaximumNumberofPointsFromGridQueries",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March27Problem2780MinimumIndexofaValidSplit",
             "request": "launch",
             "mainClass": "March27Problem2780MinimumIndexofaValidSplit",
