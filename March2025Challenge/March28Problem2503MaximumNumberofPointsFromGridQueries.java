@@ -9,6 +9,7 @@ public class March28Problem2503MaximumNumberofPointsFromGridQueries {
       int[][]  grid = {{1,2,3},{2,5,7},{3,5,1}};
       int[] queries = {5,6,2};
       int[] ans = maxPoints(grid, queries);
+      display(ans);
     }
     public static int[] maxPoints(int[][] grid, int[] queries) {
       int rows = grid.length, cols = grid[0].length;
