@@ -7,7 +7,7 @@ public class March28Problem2503MaximumNumberofPointsFromGridQueries {
     public static void main(String[] args) {
         
     }
-    public int[] maxPoints(int[][] grid, int[] queries) {
+    public static int[] maxPoints(int[][] grid, int[] queries) {
       int rows = grid.length, cols = grid[0].length;
         int[][] directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
