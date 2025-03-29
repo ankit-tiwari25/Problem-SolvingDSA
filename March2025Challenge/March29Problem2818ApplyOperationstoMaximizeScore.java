@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Set;
 
 public class March29Problem2818ApplyOperationstoMaximizeScore {
-    private final int mod = (int) 1e9 + 7;
+    private static final int mod = (int) 1e9 + 7;
 
      public static int maximumScore(List<Integer> nums, int k) {
       int n = nums.size();
