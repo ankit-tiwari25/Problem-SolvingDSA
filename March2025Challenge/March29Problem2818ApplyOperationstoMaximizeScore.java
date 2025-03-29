@@ -4,7 +4,9 @@
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class March29Problem2818ApplyOperationstoMaximizeScore {
     private final int mod = (int) 1e9 + 7;
@@ -56,5 +58,21 @@ public class March29Problem2818ApplyOperationstoMaximizeScore {
             }
         }
         return (int) ans;   
+    }
+
+     private static int primeFactors(int n) {
+        int i = 2;
+        Set<Integer> ans = new HashSet<>();
+        while (i <= n / i) {
+            while (n % i == 0) {
+                ans.add(i);
+                n /= i;
+            }
+            ++i;
+        }
+        if (n > 1) {
+            ans.add(n);
+        }
+        return ans.size();
     }
 }
