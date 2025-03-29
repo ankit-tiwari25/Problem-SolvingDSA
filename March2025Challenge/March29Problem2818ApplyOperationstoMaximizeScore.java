@@ -11,9 +11,10 @@ import java.util.Set;
 public class March29Problem2818ApplyOperationstoMaximizeScore {
     private static final int mod = (int) 1e9 + 7;
     public static void main(String[] args) {
-       int[] nums = {8,3,9,3,8};
+       Integer[] n = {8,3,9,3,8};
+       List<Integer> nums = Arrays.asList(n);
        int k = 2;
-       
+       System.out.println(maximumScore(null, k));
     }
 
      public static int maximumScore(List<Integer> nums, int k) {
