@@ -75,7 +75,7 @@ public class March29Problem2818ApplyOperationstoMaximizeScore {
         }
         return ans.size();
     }
-    private int qpow(long a, long n) {
+    private static int qpow(long a, long n) {
         long ans = 1;
         for (; n > 0; n >>= 1) {
             if ((n & 1) == 1) {
