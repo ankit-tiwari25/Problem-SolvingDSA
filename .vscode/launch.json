@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March29Problem2818ApplyOperationstoMaximizeScore",
+            "request": "launch",
+            "mainClass": "March29Problem2818ApplyOperationstoMaximizeScore",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March28Problem2503MaximumNumberofPointsFromGridQueries",
             "request": "launch",
             "mainClass": "March28Problem2503MaximumNumberofPointsFromGridQueries",

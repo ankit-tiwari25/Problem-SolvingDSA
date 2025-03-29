@@ -14,7 +14,7 @@ public class March29Problem2818ApplyOperationstoMaximizeScore {
        Integer[] n = {8,3,9,3,8};
        List<Integer> nums = Arrays.asList(n);
        int k = 2;
-       System.out.println(maximumScore(null, k));
+       System.out.println(maximumScore(nums, k));
     }
 
      public static int maximumScore(List<Integer> nums, int k) {
