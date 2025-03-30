@@ -9,7 +9,7 @@ public class March30Problem763PartitionLabels {
     public static void main(String[] args) {
         
     }
-     public List<Integer> partitionLabels(String s) {
+     public static List<Integer> partitionLabels(String s) {
          Map<Character, Integer> lastOccurrence = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             lastOccurrence.put(s.charAt(i), i);
