@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class March30Problem763PartitionLabels {
     public static void main(String[] args) {
-        
+        String s = "ababcbacadefegdehijhklij";
     }
      public static List<Integer> partitionLabels(String s) {
          Map<Character, Integer> lastOccurrence = new HashMap<>();
