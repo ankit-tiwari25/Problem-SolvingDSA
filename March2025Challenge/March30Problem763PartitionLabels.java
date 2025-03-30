@@ -1,4 +1,6 @@
 /* 763.[Medium] Partition Labels */
 public class March30Problem763PartitionLabels {
-    main
+    public static void main(String[] args) {
+        
+    }
 }
