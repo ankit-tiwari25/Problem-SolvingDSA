@@ -8,7 +8,7 @@ public class March31Problem2551PutMarblesinBags {
     public static void main(String[] args) {
         
     }
-      public long putMarbles(int[] weights, int k) {
+      public static long putMarbles(int[] weights, int k) {
       if (k == 1) {
             return 0;
         }
