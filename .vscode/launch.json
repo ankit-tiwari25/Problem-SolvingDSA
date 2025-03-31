@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "March31Problem2551PutMarblesinBags",
+            "request": "launch",
+            "mainClass": "March31Problem2551PutMarblesinBags",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March30Problem763PartitionLabels",
             "request": "launch",
             "mainClass": "March30Problem763PartitionLabels",

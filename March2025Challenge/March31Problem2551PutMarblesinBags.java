@@ -6,7 +6,9 @@ import java.util.List;
 /* 2551.[Hard] Put Marbles in Bags */
 public class March31Problem2551PutMarblesinBags {
     public static void main(String[] args) {
-        
+      int[]  weights = {1,3,5,1};
+      int k = 2;
+      System.out.println(putMarbles(weights, k));
     }
       public static long putMarbles(int[] weights, int k) {
       if (k == 1) {
