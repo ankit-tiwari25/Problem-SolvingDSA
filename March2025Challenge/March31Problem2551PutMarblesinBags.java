@@ -1,9 +1,9 @@
-/* 2551.[Hard] Put Marbles in Bags */
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/* 2551.[Hard] Put Marbles in Bags */
 public class March31Problem2551PutMarblesinBags {
     public static void main(String[] args) {
         
