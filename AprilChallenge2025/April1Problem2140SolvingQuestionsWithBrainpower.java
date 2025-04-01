@@ -5,7 +5,8 @@ import java.util.Arrays;
 /* 2140.[Medium] Solving Questions With Brainpower */
 public class April1Problem2140SolvingQuestionsWithBrainpower {
     public static void main(String[] args) {
-        
+      int[][]  questions = {{3,2},{4,3},{4,4},{2,5}};
+      System.out.println(mostPoints(questions));
     }
     public static long mostPoints(int[][] questions) {
          int n = questions.length;
