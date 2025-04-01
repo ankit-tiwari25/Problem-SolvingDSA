@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "April1Problem2140SolvingQuestionsWithBrainpower",
+            "request": "launch",
+            "mainClass": "AprilChallenge2025.April1Problem2140SolvingQuestionsWithBrainpower",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "March31Problem2551PutMarblesinBags",
             "request": "launch",
             "mainClass": "March31Problem2551PutMarblesinBags",
