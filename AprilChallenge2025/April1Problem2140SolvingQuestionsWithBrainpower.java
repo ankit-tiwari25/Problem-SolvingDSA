@@ -13,7 +13,7 @@ public class April1Problem2140SolvingQuestionsWithBrainpower {
         Arrays.fill(dp,-1);
         return rec(0,questions,dp,n); 
     }
-    private long rec(int i,int[][] questions,long[] dp,int n)
+    private static long rec(int i,int[][] questions,long[] dp,int n)
     {
         if(i>=n) return 0;
         if(dp[i]!=-1) return dp[i];
