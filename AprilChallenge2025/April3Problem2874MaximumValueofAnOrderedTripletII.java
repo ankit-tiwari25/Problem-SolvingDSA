@@ -5,6 +5,7 @@ package AprilChallenge2025;
 public class April3Problem2874MaximumValueofAnOrderedTripletII {
     public static void main(String[] args) {
         int[] nums = {12,6,1,2,7};
+        System.out.println(maximumTripletValue(nums));
     }
     public static long maximumTripletValue(int[] nums) {
         int n = nums.length;
