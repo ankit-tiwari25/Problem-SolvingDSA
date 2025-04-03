@@ -6,7 +6,7 @@ public class April3Problem2874MaximumValueofAnOrderedTripletII {
     public static void main(String[] args) {
         
     }
-    public long maximumTripletValue(int[] nums) {
+    public static long maximumTripletValue(int[] nums) {
         int n = nums.length;
        if (n < 3) return 0;
 
