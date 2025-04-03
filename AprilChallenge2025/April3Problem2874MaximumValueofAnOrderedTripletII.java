@@ -4,7 +4,7 @@ package AprilChallenge2025;
 /* 2874. [Medium] Maximum Value of an Ordered Triplet II */
 public class April3Problem2874MaximumValueofAnOrderedTripletII {
     public static void main(String[] args) {
-        
+        int[] nums = {12,6,1,2,7};
     }
     public static long maximumTripletValue(int[] nums) {
         int n = nums.length;
