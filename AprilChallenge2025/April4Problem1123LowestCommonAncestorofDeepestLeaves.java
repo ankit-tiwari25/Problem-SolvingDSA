@@ -17,4 +17,8 @@ public class April4Problem1123LowestCommonAncestorofDeepestLeaves {
         if (left != null && right != null) return root;
         return left != null ? left : right;
     }
+    public TreeNode lcaDeepestLeaves(TreeNode root) {
+        int maxi = maxDepth(root); // maxi is the max depth
+           return dfs(root, maxi, 0);   
+       }
 }
