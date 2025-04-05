@@ -3,6 +3,7 @@ package AprilChallenge2025;
 public class April5Problem1863SumofAllSubsetXORTotals {
     public static void main(String[] args) {
         int[] nums = {1,3};
+        System.out.println(subsetXORSum(nums));
     }
     public static int subsetXORSum(int[] nums) {
         int total = 0;
