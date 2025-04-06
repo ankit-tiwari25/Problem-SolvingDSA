@@ -7,7 +7,7 @@ import java.util.List;
 /* 368.[Medium] Largest Divisible Subset */
 public class April6Problem368LargestDivisibleSubset {
     public static void main(String[] args) {
-        
+      int[]  nums = {1,2,3};
     }
      public static List<Integer> largestDivisibleSubset(int[] nums) {
        Arrays.sort(nums);
