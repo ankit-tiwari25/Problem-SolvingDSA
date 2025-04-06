@@ -8,6 +8,7 @@ import java.util.List;
 public class April6Problem368LargestDivisibleSubset {
     public static void main(String[] args) {
       int[]  nums = {1,2,3};
+      System.out.println(largestDivisibleSubset(nums));
     }
      public static List<Integer> largestDivisibleSubset(int[] nums) {
        Arrays.sort(nums);
