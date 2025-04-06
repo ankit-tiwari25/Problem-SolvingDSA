@@ -1,4 +1,4 @@
-/* 368. Largest Divisible Subset */
+/* 368.[Medium] Largest Divisible Subset */
 public class April6Problem368LargestDivisibleSubset {
     
 }
