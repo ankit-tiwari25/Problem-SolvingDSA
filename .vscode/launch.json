@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "April6Problem368LargestDivisibleSubset",
+            "request": "launch",
+            "mainClass": "AprilChallenge2025.April6Problem368LargestDivisibleSubset",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "April3Problem2874MaximumValueofAnOrderedTripletII",
             "request": "launch",
             "mainClass": "AprilChallenge2025.April3Problem2874MaximumValueofAnOrderedTripletII",
