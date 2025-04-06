@@ -9,7 +9,7 @@ public class April6Problem368LargestDivisibleSubset {
     public static void main(String[] args) {
         
     }
-     public List<Integer> largestDivisibleSubset(int[] nums) {
+     public static List<Integer> largestDivisibleSubset(int[] nums) {
        Arrays.sort(nums);
         int[] dp = new int[nums.length];
         int[] prev = new int[nums.length];
