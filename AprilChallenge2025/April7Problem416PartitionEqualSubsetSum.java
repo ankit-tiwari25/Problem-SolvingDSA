@@ -2,7 +2,8 @@ package AprilChallenge2025;
 /* 416.[Medium] Partition Equal Subset Sum */
 public class April7Problem416PartitionEqualSubsetSum {
     public static void main(String[] args) {
-        
+      int[]  nums = {1,5,11,5};
+      
     }
     public static boolean canPartition(int[] nums) {
         int totalSum = 0;
