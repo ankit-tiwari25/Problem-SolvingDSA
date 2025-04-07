@@ -4,7 +4,7 @@ public class April7Problem416PartitionEqualSubsetSum {
     public static void main(String[] args) {
         
     }
-    public boolean canPartition(int[] nums) {
+    public static boolean canPartition(int[] nums) {
         int totalSum = 0;
         for (int num : nums) totalSum += num;
         if (totalSum % 2 != 0) return false;
