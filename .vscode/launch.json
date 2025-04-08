@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "April8Problem3396MinimumNumberofOperationstoMakeElementsinArrayDistinct",
+            "request": "launch",
+            "mainClass": "AprilChallenge2025.April8Problem3396MinimumNumberofOperationstoMakeElementsinArrayDistinct",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "April7Problem416PartitionEqualSubsetSum",
             "request": "launch",
             "mainClass": "AprilChallenge2025.April7Problem416PartitionEqualSubsetSum",
