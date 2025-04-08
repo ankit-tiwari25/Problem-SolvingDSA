@@ -8,7 +8,7 @@ import java.util.List;
 
 public class April8Problem3396MinimumNumberofOperationstoMakeElementsinArrayDistinct {
     public static void main(String[] args) {
-        
+        int[] nums = {1,2,3,4,2,3,3,5,7};
     }
      public static int minimumOperations(int[] nums) {
       int cnt = 0, temp;
