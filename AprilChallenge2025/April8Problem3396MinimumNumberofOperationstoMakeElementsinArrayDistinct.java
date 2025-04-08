@@ -10,7 +10,7 @@ public class April8Problem3396MinimumNumberofOperationstoMakeElementsinArrayDist
     public static void main(String[] args) {
         
     }
-     public int minimumOperations(int[] nums) {
+     public static int minimumOperations(int[] nums) {
       int cnt = 0, temp;
         List<Integer> list = new ArrayList<>();
         for (int n : nums)
