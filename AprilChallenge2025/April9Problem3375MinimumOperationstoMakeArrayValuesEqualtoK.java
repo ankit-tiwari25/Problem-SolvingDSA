@@ -7,7 +7,7 @@ public class April9Problem3375MinimumOperationstoMakeArrayValuesEqualtoK {
     public static void main(String[] args) {
         
     }
-    public int minOperations(int[] nums, int k) {
+    public static int minOperations(int[] nums, int k) {
        Arrays.sort(nums);
         int mini = nums[0];
         if (mini < k) return -1;
