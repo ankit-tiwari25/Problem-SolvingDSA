@@ -5,7 +5,8 @@ import java.util.Arrays;
 /* 3375.[Easy] Minimum Operations to Make Array Values Equal to K */
 public class April9Problem3375MinimumOperationstoMakeArrayValuesEqualtoK {
     public static void main(String[] args) {
-        
+        int[]  nums = {5,2,5,4,5};
+        int k = 2;
     }
     public static int minOperations(int[] nums, int k) {
        Arrays.sort(nums);
