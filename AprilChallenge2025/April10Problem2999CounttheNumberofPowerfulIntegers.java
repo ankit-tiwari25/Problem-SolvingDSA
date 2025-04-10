@@ -5,7 +5,9 @@ import java.util.Arrays;
 /* 2999.[Hard] Count the Number of Powerful Integers */
 public class April10Problem2999CounttheNumberofPowerfulIntegers {
     public static void main(String[] args) {
-        
+      int  start = 1, finish = 6000, limit = 4;
+      String  s = "124";
+      System.out.println(numberOfPowerfulInt(start, finish, limit, null));
     }
     static public long numberOfPowerfulInt(long start, long finish, int limit, String s) {
         char[] suffixReq = s.toCharArray();
