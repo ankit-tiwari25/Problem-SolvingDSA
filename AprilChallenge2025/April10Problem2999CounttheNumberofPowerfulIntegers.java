@@ -42,5 +42,15 @@ for (int j = 0; j <= till; j++) {
 }
 return dp[i][isStrict] = ans;
 }
+static boolean isSmaller(char[] range, char[] sufffix) {
+    int n1 = range.length, n2 = sufffix.length;
+    if (n1 < n2) return false;
+    if (n1 > n2) return true;
+    for (int i = 0; i < n1; i++) {
+        if (range[i] > sufffix[i]) return true;
+        else if (range[i] < sufffix[i]) return false;
+    }
+    return true;
+}
 
 }
