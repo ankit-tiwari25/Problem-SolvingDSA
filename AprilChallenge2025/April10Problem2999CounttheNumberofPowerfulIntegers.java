@@ -22,5 +22,25 @@ public class April10Problem2999CounttheNumberofPowerfulIntegers {
         }
         return 0;
     }
+    static long solve(int i, int isStrict, char[] range, char[] suffixReq, int limit, int n, Long[][] dp,
+    boolean checkIfSTrictThenPoss, int sLen) {
+if (i == n) return 1;
+
+if (dp[i][isStrict] != null) return dp[i][isStrict];
+
+if (i >= n - sLen) {
+    if (isStrict == 1) return checkIfSTrictThenPoss ? 1 : 0;
+    return 1;
+}
+
+int till = limit, num = (int) (range[i] - '0');
+if (isStrict == 1 || i == 0) till = Math.min(limit, num);
+long ans = 0;
+
+for (int j = 0; j <= till; j++) {
+    ans += solve(i + 1, (i == 0 ? (j == num ? 1 : 0) : isStrict) & (num == j ? 1 : 0), range, suffixReq, limit, n, dp, checkIfSTrictThenPoss, sLen);
+}
+return dp[i][isStrict] = ans;
+}
 
 }
