@@ -10,7 +10,7 @@ public class April11Problem2843CountSymmetricIntegers {
              String str = Integer.toString(num); 
              int len = str.length();
  
-             // 🔥 Skip if it doesn't have even chakra balance (odd number of digits)
+             
              if (len % 2 != 0) continue;
  
              int half = len / 2;
