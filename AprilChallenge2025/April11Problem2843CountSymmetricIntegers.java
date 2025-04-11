@@ -2,7 +2,7 @@
 public class April11Problem2843CountSymmetricIntegers {
     public static void main(String[] args) {
         int low = 1, high = 100;
-
+        System.out.println(countSymmetricIntegers(low,high));
     }
     public static int countSymmetricIntegers(int low, int high) {
         int count = 0; 
