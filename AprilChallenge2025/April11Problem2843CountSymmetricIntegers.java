@@ -1,8 +1,8 @@
 /* 2843.[Easy] Count Symmetric Integers */
 public class April11Problem2843CountSymmetricIntegers {
     public static void main(String[] args) {
-        int[] low = 1, high = 100;
-        
+        int low = 1, high = 100;
+
     }
     public static int countSymmetricIntegers(int low, int high) {
         int count = 0; 
