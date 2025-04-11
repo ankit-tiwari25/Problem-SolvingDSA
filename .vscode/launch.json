@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "April11Problem2843CountSymmetricIntegers",
+            "request": "launch",
+            "mainClass": "AprilChallenge2025.April11Problem2843CountSymmetricIntegers",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "April10Problem2999CounttheNumberofPowerfulIntegers",
             "request": "launch",
             "mainClass": "AprilChallenge2025.April10Problem2999CounttheNumberofPowerfulIntegers",
