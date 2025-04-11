@@ -22,7 +22,7 @@ public class April11Problem2843CountSymmetricIntegers {
                  leftSum += str.charAt(i) - '0';
              }
  
-             // ➡️ Sum of the right half (last n digits)
+            
              for (int i = half; i < len; i++) {
                  rightSum += str.charAt(i) - '0';
              }
