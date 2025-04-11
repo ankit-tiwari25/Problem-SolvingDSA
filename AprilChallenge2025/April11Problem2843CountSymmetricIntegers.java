@@ -27,7 +27,7 @@ public class April11Problem2843CountSymmetricIntegers {
                  rightSum += str.charAt(i) - '0';
              }
  
-             // ☯️ If chakra is balanced, count it
+            
              if (leftSum == rightSum) {
                  count++;
              }
