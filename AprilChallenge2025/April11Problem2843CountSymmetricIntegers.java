@@ -3,8 +3,8 @@ public class April11Problem2843CountSymmetricIntegers {
     public static void main(String[] args) {
         
     }
-    public int countSymmetricIntegers(int low, int high) {
-        int count = 0; // 🍥 Shadow Clone counter
+    public static int countSymmetricIntegers(int low, int high) {
+        int count = 0; 
  
          for (int num = low; num <= high; num++) {
              String str = Integer.toString(num); // 🎭 Transform number to string
