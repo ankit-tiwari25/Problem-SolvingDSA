@@ -17,7 +17,7 @@ public class April11Problem2843CountSymmetricIntegers {
              int leftSum = 0;
              int rightSum = 0;
  
-             // ⬅️ Sum of the left half (first n digits)
+            
              for (int i = 0; i < half; i++) {
                  leftSum += str.charAt(i) - '0';
              }
