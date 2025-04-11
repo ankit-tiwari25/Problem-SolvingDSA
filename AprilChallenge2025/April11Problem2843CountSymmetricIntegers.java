@@ -7,7 +7,7 @@ public class April11Problem2843CountSymmetricIntegers {
         int count = 0; 
  
          for (int num = low; num <= high; num++) {
-             String str = Integer.toString(num); // 🎭 Transform number to string
+             String str = Integer.toString(num); 
              int len = str.length();
  
              // 🔥 Skip if it doesn't have even chakra balance (odd number of digits)
