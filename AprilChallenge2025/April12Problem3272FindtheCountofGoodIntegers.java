@@ -69,7 +69,7 @@ public class April12Problem3272FindtheCountofGoodIntegers {
         }
         return result; // Return the final factorial value
     }
-    public void generatePalindromes(char[] currentNumber, int index, List<String> validPalindromes, int k) {
+    public static void generatePalindromes(char[] currentNumber, int index, List<String> validPalindromes, int k) {
         // Base case: if we've filled the entire number from both ends
         if (index >= (currentNumber.length + 1) / 2) {
             String palindrome = new String(currentNumber); // Convert char[] to string
