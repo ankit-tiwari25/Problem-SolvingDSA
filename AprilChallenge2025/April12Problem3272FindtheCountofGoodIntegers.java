@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 /* 3272.[Hard] Find the Count of Good Integers */
 public class April12Problem3272FindtheCountofGoodIntegers {
-    public long countGoodIntegers(int n, int k) {
+    public static long countGoodIntegers(int n, int k) {
        List<String> validPalindromes = new ArrayList<>(); // Stores all valid palindromes
         char[] basePalindrome = new char[n]; // Initial base: all zero characters
         Arrays.fill(basePalindrome, '0'); // Fill it with '0's
@@ -62,7 +62,7 @@ public class April12Problem3272FindtheCountofGoodIntegers {
 
         return totalValidPermutations;    
     }
-      public long factorial(int num) {
+      public static long factorial(int num) {
         long result = 1;
         for (int i = 1; i <= num; i++) {
             result *= i;  // Multiply from 1 to num (like 1 * 2 * 3 * ... * num)
