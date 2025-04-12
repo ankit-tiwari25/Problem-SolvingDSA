@@ -79,4 +79,18 @@ public class April12Problem3272FindtheCountofGoodIntegers {
             }
             return;
         }
+          // ⚠️ Try placing '0' at this index (but not in the first position)
+          if (index != 0) {
+            currentNumber[index] = '0';
+            currentNumber[currentNumber.length - 1 - index] = '0'; // Mirror placement
+            generatePalindromes(currentNumber, index + 1, validPalindromes, k); // Move to next index
+        }
+
+        // 🔁 Try placing digits from '1' to '9' at current index (mirrored on both sides)
+        for (char c = '1'; c <= '9'; c++) {
+            currentNumber[index] = c;
+            currentNumber[currentNumber.length - 1 - index] = c; // Mirror the digit
+            generatePalindromes(currentNumber, index + 1, validPalindromes, k); // Recurse deeper
+        }
+    }
 }
