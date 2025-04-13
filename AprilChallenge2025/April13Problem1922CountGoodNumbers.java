@@ -19,7 +19,7 @@ public class April13Problem1922CountGoodNumbers {
         return ans;
     }
 
-    public int countGoodNumbers(long n) {
+    public static int countGoodNumbers(long n) {
         if(n==1) return 5;
         long even = (n+1)/2;
         long odd = n/2;
