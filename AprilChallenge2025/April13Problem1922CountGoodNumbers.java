@@ -2,7 +2,7 @@ public class April13Problem1922CountGoodNumbers {
     public static void main(String[] args) {
         
     }
-    public long helper(long base,long expo,long mod){
+    public static long helper(long base,long expo,long mod){
         long ans = 1;
         while(expo>0)
         {
