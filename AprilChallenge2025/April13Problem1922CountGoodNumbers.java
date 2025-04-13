@@ -1,7 +1,8 @@
 /* 1922.[Medium] Count Good Numbers */
 public class April13Problem1922CountGoodNumbers {
     public static void main(String[] args) {
-        
+        int n = 1;
+        System.out.println(countGoodNumbers(n));
     }
     public static long helper(long base,long expo,long mod){
         long ans = 1;
