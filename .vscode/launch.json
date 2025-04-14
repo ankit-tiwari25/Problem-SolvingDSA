@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "April14Problem1534CountGoodTriplets",
+            "request": "launch",
+            "mainClass": "April14Problem1534CountGoodTriplets",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "April11Problem2843CountSymmetricIntegers",
             "request": "launch",
             "mainClass": "AprilChallenge2025.April11Problem2843CountSymmetricIntegers",
