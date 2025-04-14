@@ -3,7 +3,7 @@ public class April14Problem1534CountGoodTriplets {
     public static void main(String[] args) {
         
     }
-    public int countGoodTriplets(int[] arr, int a, int b, int c) {
+    public static int countGoodTriplets(int[] arr, int a, int b, int c) {
         int n = arr.length, count = 0;
    
            for(int i = 0; i < n - 2; i++) {
