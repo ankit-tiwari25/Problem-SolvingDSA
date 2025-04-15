@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "April15Problem2179CountGoodTripletsinanArray",
+            "request": "launch",
+            "mainClass": "April15Problem2179CountGoodTripletsinanArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "April14Problem1534CountGoodTriplets",
             "request": "launch",
             "mainClass": "April14Problem1534CountGoodTriplets",
