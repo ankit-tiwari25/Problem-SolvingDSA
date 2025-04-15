@@ -9,7 +9,7 @@ public class April15Problem2179CountGoodTripletsinanArray {
     public static void main(String[] args) {
         
     }
-    public long goodTriplets(int[] nums1, int[] nums2) {
+    public static long goodTriplets(int[] nums1, int[] nums2) {
       HashMap<Integer, Integer> mpp = new HashMap<>();
         for (int i = 0; i < nums1.length; i++) mpp.put(nums1[i], i);
         int n = nums2.length;
