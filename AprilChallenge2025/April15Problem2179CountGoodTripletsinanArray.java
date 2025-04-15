@@ -26,7 +26,7 @@ public class April15Problem2179CountGoodTripletsinanArray {
         }
         return total;  
     }
-    private int orderOfKey(ArrayList<Integer> st, int key) {
+    private static int orderOfKey(ArrayList<Integer> st, int key) {
         int pos = Collections.binarySearch(st, key);
         return pos < 0 ? -pos - 1 : pos;
     }
