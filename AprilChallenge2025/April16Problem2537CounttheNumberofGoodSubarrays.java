@@ -7,6 +7,7 @@ public class April16Problem2537CounttheNumberofGoodSubarrays {
     public static void main(String[] args) {
         int[] nums = {1,1,1,1,1};
         int k = 10;
+        System.out.println(countGood(nums, k));
     }
      public static long countGood(int[] nums, int k) {
       Map<Integer, Integer> freq = new HashMap<>();
