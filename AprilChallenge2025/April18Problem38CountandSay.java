@@ -3,7 +3,7 @@ public class April18Problem38CountandSay {
     public static void main(String[] args) {
         
     }
-    public String countAndSay(int n) {
+    public static String countAndSay(int n) {
         String curr = "1";
         if(n==1) return curr;
         for(int i=2;i<=n;i++)
