@@ -2,6 +2,7 @@
 public class April18Problem38CountandSay {
     public static void main(String[] args) {
         int n = 4;
+        System.out.println(countAndSay(n));
     }
     public static String countAndSay(int n) {
         String curr = "1";
