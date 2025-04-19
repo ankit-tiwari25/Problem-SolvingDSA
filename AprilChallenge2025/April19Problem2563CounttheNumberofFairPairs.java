@@ -7,7 +7,7 @@ public class April19Problem2563CounttheNumberofFairPairs {
     public static void main(String[] args) {
         
     }
-    long countAtLeast(int[] nums, long comp) {
+    public static long countAtLeast(int[] nums, long comp) {
         long ans = 0; int i = 0, j = nums.length - 1;
         while (i < j) {
             if (nums[i] + nums[j] >= comp) {
