@@ -5,7 +5,8 @@ import java.util.Arrays;
 
 public class April19Problem2563CounttheNumberofFairPairs {
     public static void main(String[] args) {
-        
+      int[]  nums = {0,1,7,4,4,5};
+      int lower = 3, upper = 6;
     }
     public static long countAtLeast(int[] nums, long comp) {
         long ans = 0; int i = 0, j = nums.length - 1;
