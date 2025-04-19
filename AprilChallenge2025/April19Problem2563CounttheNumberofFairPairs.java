@@ -18,7 +18,7 @@ public class April19Problem2563CounttheNumberofFairPairs {
         }
         return ans;
     }
-    public long countFairPairs(int[] nums, int lower, int upper) {
+    public static long countFairPairs(int[] nums, int lower, int upper) {
         Arrays.sort(nums);
         return countAtLeast(nums, lower) - countAtLeast(nums, upper+1);
     }
