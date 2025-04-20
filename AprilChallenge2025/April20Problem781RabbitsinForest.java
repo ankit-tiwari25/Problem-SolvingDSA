@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class April20Problem781RabbitsinForest {
     public static void main(String[] args) {
-        
+        int[] answers = {1,1,2};
     }
      public static int numRabbits(int[] answers) {
         Map<Integer, Integer> freq = new HashMap<>();
