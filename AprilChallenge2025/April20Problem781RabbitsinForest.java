@@ -8,7 +8,7 @@ public class April20Problem781RabbitsinForest {
     public static void main(String[] args) {
         
     }
-     public int numRabbits(int[] answers) {
+     public static int numRabbits(int[] answers) {
         Map<Integer, Integer> freq = new HashMap<>();
 
         for (int a : answers) {
