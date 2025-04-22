@@ -8,7 +8,7 @@ public class April22Problem2338CounttheNumberofIdealArrays {
     int[] factMemo = new int[100000];
     int[][] dp = new int[100000][15];
 
-    long power(long a, long b, long m) {
+    public static long power(long a, long b, long m) {
         long res = 1;
         while (b > 0) {
             if ((b & 1) == 1) res = (res * a) % m;
