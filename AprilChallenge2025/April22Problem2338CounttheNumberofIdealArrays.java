@@ -2,11 +2,12 @@
 /* 2338.[Hard] Count the Number of Ideal Arrays */
 public class April22Problem2338CounttheNumberofIdealArrays {
     public static void main(String[] args) {
-        
+        int n = 2, maxValue = 5;
+        System.out.println(idealArrays(n,maxValue));
     }
     static final int mod = 1000000007;
     public static int[] factMemo = new int[100000];
-    int[][] dp = new int[100000][15];
+    public static int[][] dp = new int[100000][15];
 
     public static long power(long a, long b, long m) {
         long res = 1;
