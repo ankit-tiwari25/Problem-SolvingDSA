@@ -18,7 +18,7 @@ public class April22Problem2338CounttheNumberofIdealArrays {
         return res;
     }
 
-    long fact(int x) {
+    public static long fact(int x) {
         if (x == 0) return 1;
         if (factMemo[x] != 0) return factMemo[x];
         factMemo[x] = (int)((1L * x * fact(x - 1)) % mod);
