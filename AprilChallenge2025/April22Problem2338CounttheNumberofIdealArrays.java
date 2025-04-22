@@ -30,7 +30,7 @@ public class April22Problem2338CounttheNumberofIdealArrays {
         return fact(a) * power(fact(b), mod - 2, mod) % mod * power(fact(a - b), mod - 2, mod) % mod;
     }
 
-    public int idealArrays(int n, int maxValue) {
+    public static int idealArrays(int n, int maxValue) {
         int m = Math.min(n, 14);
         for (int i = 1; i <= maxValue; i++)
             for (int j = 1; j <= m; j++)
