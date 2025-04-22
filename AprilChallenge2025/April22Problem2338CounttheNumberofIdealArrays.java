@@ -25,7 +25,7 @@ public class April22Problem2338CounttheNumberofIdealArrays {
         return factMemo[x];
     }
 
-    long mod_inv(int a, int b) {
+    public static long mod_inv(int a, int b) {
         return fact(a) * power(fact(b), mod - 2, mod) % mod * power(fact(a - b), mod - 2, mod) % mod;
     }
 
