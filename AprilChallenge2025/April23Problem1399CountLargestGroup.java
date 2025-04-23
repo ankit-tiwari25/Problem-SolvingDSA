@@ -5,7 +5,8 @@ import java.util.Map;
 
 public class April23Problem1399CountLargestGroup {
     public static void main(String[] args) {
-        
+        int n = 13;
+        System.out.println(countLargestGroup(n));
     }
      public static int countLargestGroup(int n) {
         Map<Integer, Integer> mpp = new HashMap<>();
