@@ -21,7 +21,7 @@ public class April23Problem1399CountLargestGroup {
         return count;
     }
 
-    private int digsum(int n) {
+    private static int digsum(int n) {
         int sum = 0;
         while (n > 0) {
             sum += n % 10;
