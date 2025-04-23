@@ -7,7 +7,7 @@ public class April23Problem1399CountLargestGroup {
     public static void main(String[] args) {
         
     }
-     public int countLargestGroup(int n) {
+     public static int countLargestGroup(int n) {
         Map<Integer, Integer> mpp = new HashMap<>();
         int maxi = 0, count = 0;
 
