@@ -6,7 +6,8 @@ import java.util.Map;
 
 public class April24Problem2799CountCompleteSubarraysinanArray {
     public static void main(String[] args) {
-        int[]  nums = [1,3,1,2,2];
+        int[]  nums = {1,3,1,2,2};
+        System.out.println();
     }
      public static int countCompleteSubarrays(int[] nums) {
      int left = 0, res = 0;
