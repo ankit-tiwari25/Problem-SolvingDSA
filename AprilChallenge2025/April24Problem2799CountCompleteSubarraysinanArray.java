@@ -8,7 +8,7 @@ public class April24Problem2799CountCompleteSubarraysinanArray {
     public static void main(String[] args) {
         
     }
-     public int countCompleteSubarrays(int[] nums) {
+     public static int countCompleteSubarrays(int[] nums) {
      int left = 0, res = 0;
         int k = (int) Arrays.stream(nums).distinct().count();
         Map<Integer, Integer> mpp = new HashMap<>();
