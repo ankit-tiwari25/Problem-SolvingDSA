@@ -8,6 +8,7 @@ public class April25Problem2845CountofInterestingSubarrays {
  public static void main(String[] args) {
     int[] nums = {3,1,9,6};
     int modulo = 3, k = 0;
+    System.out.println(countInterestingSubarrays(null, modulo, k));
  }   
 public static long countInterestingSubarrays(List<Integer> nums, int modulo, int k) 
     {
