@@ -6,9 +6,10 @@ import java.util.Map;
 
 public class April25Problem2845CountofInterestingSubarrays {
  public static void main(String[] args) {
-    
+    int[] nums = {3,1,9,6};
+    int modulo = 3, k = 0;
  }   
-   public static long countInterestingSubarrays(List<Integer> nums, int modulo, int k) 
+public static long countInterestingSubarrays(List<Integer> nums, int modulo, int k) 
     {
         // Step 1 : Initialize result, prefix sum, and a map with base case
         long result = 0;
