@@ -4,7 +4,7 @@ public class April26Problem2444CountSubarraysWithFixedBounds {
         
     }
 
-    public long countSubarrays(int[] nums, int minK, int maxK) {
+    public static long countSubarrays(int[] nums, int minK, int maxK) {
         long count = 0;
           int start = -1, mini = -1, maxi = -1;
           for (int i = 0; i < nums.length; i++) {
