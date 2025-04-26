@@ -1,7 +1,8 @@
 /* 2444.[Hard] Count Subarrays With Fixed Bounds */
 public class April26Problem2444CountSubarraysWithFixedBounds {
     public static void main(String[] args) {
-        
+        int[]  nums = {1,3,5,2,7,5};
+        int minK = 1, maxK = 5;
     }
 
     public static long countSubarrays(int[] nums, int minK, int maxK) {
