@@ -2,7 +2,7 @@ public class April28Problem2302CountSubarraysWithScoreLessThanK {
     public static void main(String[] args) {
         
     }
-    public long countSubarrays(int[] nums, long k) {
+    public static long countSubarrays(int[] nums, long k) {
         int n = nums.length;
        
        long result = 0;
