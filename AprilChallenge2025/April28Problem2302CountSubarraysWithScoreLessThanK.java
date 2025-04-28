@@ -1,7 +1,10 @@
 /* 2302.[Hard] Count Subarrays With Score Less Than K */
 public class April28Problem2302CountSubarraysWithScoreLessThanK {
     public static void main(String[] args) {
-        
+        int[] nums = {2,1,4,3,5};
+        int k = 10;
+
+        System.out.println(countSubarrays(nums, k));
     }
     public static long countSubarrays(int[] nums, long k) {
         int n = nums.length;
