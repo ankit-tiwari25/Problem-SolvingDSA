@@ -1,7 +1,8 @@
 /* 2962. [Medium] Count Subarrays Where Max Element Appears at Least K Times */
 public class April29Problem2962CountSubarraysWhereMaxElementAppearsatLeastKTimes {
     public static void main(String[] args) {
-        
+        int[] nums = {1,3,2,3,3};
+        int k = 2;
     }
     public static long countSubarrays(int[] nums, int k) {
         int maxi = Integer.MIN_VALUE;
