@@ -3,6 +3,7 @@ public class April29Problem2962CountSubarraysWhereMaxElementAppearsatLeastKTimes
     public static void main(String[] args) {
         int[] nums = {1,3,2,3,3};
         int k = 2;
+        System.out.println(countSubarrays(nums, k));
     }
     public static long countSubarrays(int[] nums, int k) {
         int maxi = Integer.MIN_VALUE;
