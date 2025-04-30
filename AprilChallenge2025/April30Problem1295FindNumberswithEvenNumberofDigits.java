@@ -1,6 +1,7 @@
 /* 1295.[Easy] Find Numbers with Even Number of Digits */
 public class April30Problem1295FindNumberswithEvenNumberofDigits {
     public static void main(String[] args) {
+        int[] nums = {12,345,2,6,7896};
         
     }
     public static int findNumbers(int[] nums) {
