@@ -6,7 +6,9 @@ import java.util.TreeMap;
 /* 2071.[Hard] Maximum Number of Tasks You Can Assign */
 public class May1Problem2071MaximumNumberofTasksYouCanAssign {
     public static void main(String[] args) {
-        
+        int[] tasks = {3,2,1};
+        int[] workers = {0,3,3};
+        int pills = 1, strength = 1;
     }
      private static void decrement(TreeMap<Integer, Integer> m, int k) {
         int c = m.get(k);
