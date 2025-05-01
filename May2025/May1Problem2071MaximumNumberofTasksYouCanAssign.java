@@ -10,7 +10,7 @@ public class May1Problem2071MaximumNumberofTasksYouCanAssign {
         if (c == 1) m.remove(k);
         else m.put(k, c - 1);
     }
-    public int maxTaskAssign(int[] tasks, int[] workers, int pills, int strength) {
+    public static int maxTaskAssign(int[] tasks, int[] workers, int pills, int strength) {
        int left = 0, right = Math.min(tasks.length, workers.length);
         Arrays.sort(tasks);
         Arrays.sort(workers);
