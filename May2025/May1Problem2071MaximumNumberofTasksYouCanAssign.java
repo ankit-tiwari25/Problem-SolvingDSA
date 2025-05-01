@@ -9,6 +9,7 @@ public class May1Problem2071MaximumNumberofTasksYouCanAssign {
         int[] tasks = {3,2,1};
         int[] workers = {0,3,3};
         int pills = 1, strength = 1;
+        System.out.println(maxTaskAssign(tasks, workers, pills, strength));
     }
      private static void decrement(TreeMap<Integer, Integer> m, int k) {
         int c = m.get(k);
