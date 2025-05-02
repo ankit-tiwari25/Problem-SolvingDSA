@@ -4,7 +4,7 @@ public class May2Problem838PushDominoes {
     public static void main(String[] args) {
         
     }
-    public String pushDominoes(String s) {
+    public static String pushDominoes(String s) {
         s = "L" + s + "R";
         StringBuilder res = new StringBuilder();
         int prev = 0;
