@@ -3,6 +3,7 @@ package May2025;
 public class May2Problem838PushDominoes {
     public static void main(String[] args) {
         String dominoes = "RR.L";
+        System.out.println(pushDominoes(dominoes));
     }
     public static String pushDominoes(String s) {
         s = "L" + s + "R";
