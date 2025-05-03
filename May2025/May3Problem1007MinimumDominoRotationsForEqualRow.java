@@ -2,7 +2,7 @@ package May2025;
 
 public class May3Problem1007MinimumDominoRotationsForEqualRow {
     public static void main(String[] args) {
-        
+        int[] tops = {3,5,1,2,3}, bottoms = {3,6,3,3,4};
     }
     public static int minDominoRotations(int[] tops, int[] bottoms) {
         int n = tops.length, res = Integer.MAX_VALUE;
