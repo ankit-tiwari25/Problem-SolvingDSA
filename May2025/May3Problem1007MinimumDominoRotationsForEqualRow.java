@@ -4,7 +4,7 @@ public class May3Problem1007MinimumDominoRotationsForEqualRow {
     public static void main(String[] args) {
         
     }
-    public int minDominoRotations(int[] tops, int[] bottoms) {
+    public static int minDominoRotations(int[] tops, int[] bottoms) {
         int n = tops.length, res = Integer.MAX_VALUE;
       int[] face = new int[7];
       for (int i = 0; i < n; i++) {
