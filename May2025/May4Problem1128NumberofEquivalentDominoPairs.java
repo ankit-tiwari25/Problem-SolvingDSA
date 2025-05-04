@@ -14,7 +14,7 @@ public class May4Problem1128NumberofEquivalentDominoPairs {
         return (sum * (sum + 1)) / 2 + y;
     }
 
-    public int numEquivDominoPairs(int[][] dominoes) {
+    public static int numEquivDominoPairs(int[][] dominoes) {
         int count = 0;
         Map<Long, Integer> freq = new HashMap<>();
         for (int[] dom : dominoes) {
