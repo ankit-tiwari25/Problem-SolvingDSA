@@ -6,7 +6,8 @@ import java.util.Map;
 /* 1128.[Easy] Number of Equivalent Domino Pairs */
 public class May4Problem1128NumberofEquivalentDominoPairs {
     public static void main(String[] args) {
-        
+        int[][] dominoes = {{1,2},{2,1},{3,4},{5,6}};
+        System.out.println(cantorPair(0, 0));
     }
     public static long cantorPair(int a, int b) {
         int x = Math.min(a, b), y = Math.max(a, b);
