@@ -5,7 +5,7 @@ public class May5Problem790DominoandTrominoTiling {
     public static void main(String[] args) {
         
     }
-    public int numTilings(int n) {
+    public static int numTilings(int n) {
         final int M = 1000000007;
 
         if (n == 1) return 1;
