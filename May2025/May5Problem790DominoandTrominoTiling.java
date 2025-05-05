@@ -3,7 +3,8 @@ package May2025;
 /* 790.[Medium] Domino and Tromino Tiling */
 public class May5Problem790DominoandTrominoTiling {
     public static void main(String[] args) {
-        
+        int n = 3;
+        System.out.println(numTilings(n));
     }
     public static int numTilings(int n) {
         final int M = 1000000007;
