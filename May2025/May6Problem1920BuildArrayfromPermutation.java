@@ -13,4 +13,10 @@ public class May6Problem1920BuildArrayfromPermutation {
         }
         return arr;
     }
+    public static void display(int[] arr){
+        for(int i : arr){
+            System.out.print( " " + i);
+        }
+        System.out.println();
+    }
 }
