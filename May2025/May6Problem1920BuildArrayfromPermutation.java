@@ -4,6 +4,7 @@ public class May6Problem1920BuildArrayfromPermutation {
     public static void main(String[] args) {
         int[] nums = {0,2,1,5,3,4};
         int[] ans = buildArray(nums);
+        display(ans);
     }
     public static int[] buildArray(int[] nums) {
         int[] arr = new int[nums.length];
