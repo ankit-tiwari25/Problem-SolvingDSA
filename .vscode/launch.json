@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May6Problem1920BuildArrayfromPermutation",
+            "request": "launch",
+            "mainClass": "May2025.May6Problem1920BuildArrayfromPermutation",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "April18Problem38CountandSay",
             "request": "launch",
             "mainClass": "April18Problem38CountandSay",
