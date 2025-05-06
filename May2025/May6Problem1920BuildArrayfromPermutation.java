@@ -2,7 +2,7 @@ package May2025;
 /* 1920.[Easy] Build Array from Permutation */
 public class May6Problem1920BuildArrayfromPermutation {
     public static void main(String[] args) {
-        
+        int[] nums = {0,2,1,5,3,4};
     }
     public int[] buildArray(int[] nums) {
         int[] arr = new int[nums.length];
