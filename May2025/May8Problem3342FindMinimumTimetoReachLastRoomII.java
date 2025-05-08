@@ -8,7 +8,7 @@ public class May8Problem3342FindMinimumTimetoReachLastRoomII {
     public static void main(String[] args) {
         
     }
-     public int minTimeToReach(int[][] t) {
+     public static int minTimeToReach(int[][] t) {
       int n = t.length, m = t[0].length;
         int[][][] dp = new int[n][m][2];
         for (int i = 0; i < n; i++)
