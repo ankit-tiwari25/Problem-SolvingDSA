@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 /* 3342.[Medium] Find Minimum Time to Reach Last Room II */
 public class May8Problem3342FindMinimumTimetoReachLastRoomII {
     public static void main(String[] args) {
-        
+        int[][] moveTime = {{0,4},{4,4}};
     }
      public static int minTimeToReach(int[][] t) {
       int n = t.length, m = t[0].length;
