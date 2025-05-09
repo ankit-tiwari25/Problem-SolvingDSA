@@ -1,4 +1,4 @@
-/* 3343. Count Number of Balanced Permutations */
+/* 3343.[Hard] Count Number of Balanced Permutations */
 public class May9Problem3343CountNumberofBalancedPermutations {
     
 }
