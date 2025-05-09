@@ -2,6 +2,7 @@
 public class May9Problem3343CountNumberofBalancedPermutations {
     public static void main(String[] args) {
         String num = "123";
+        System.out.println(countBalancedPermutations(num));
     }
       public static int countBalancedPermutations(String num) 
     {
