@@ -3,7 +3,7 @@ public class May9Problem3343CountNumberofBalancedPermutations {
     public static void main(String[] args) {
         
     }
-      public int countBalancedPermutations(String num) 
+      public static int countBalancedPermutations(String num) 
     {
         // Step 1: Count the frequency of each digit (0-9)
         int[] f = new int[10]; 
