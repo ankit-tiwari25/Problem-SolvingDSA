@@ -2,6 +2,7 @@
 public class May10Problem2918MinimumEqualSumofTwoArraysAfterReplacingZeros {
     public static void main(String[] args) {
         int[]  nums1 = {3,2,0,1,0}, nums2 = {6,5,0};
+        System.out.println(minSum(nums1, nums2));
     }
      public static long minSum(int[] nums1, int[] nums2) {
         long nums1Zeroes = 0, nums2Zeroes = 0,sum1 = 0, sum2 = 0;
