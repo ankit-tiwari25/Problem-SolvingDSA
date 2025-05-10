@@ -1,6 +1,6 @@
 /* 2918.[Medium] Minimum Equal Sum of Two Arrays After Replacing Zeros */
 public class May10Problem2918MinimumEqualSumofTwoArraysAfterReplacingZeros {
-     public long minSum(int[] nums1, int[] nums2) {
+     public static long minSum(int[] nums1, int[] nums2) {
         long nums1Zeroes = 0, nums2Zeroes = 0,sum1 = 0, sum2 = 0;
         for(int i : nums1){
             if(i == 0) nums1Zeroes++;
