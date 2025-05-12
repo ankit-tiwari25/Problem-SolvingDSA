@@ -8,7 +8,7 @@ public class May12Problem2094Finding3DigitEvenNumbers {
         int[] digits = {2,2,8,8,2};
         System.out.println(findEvenNumbers(digits));
     }
-    public int[] findEvenNumbers(int[] digits) {
+    public static int[] findEvenNumbers(int[] digits) {
           int[] mpp = new int[10];
         for (int d : digits) mpp[d]++;
         List<Integer> res = new ArrayList<>();
