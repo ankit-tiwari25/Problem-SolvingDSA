@@ -1,4 +1,8 @@
 /* 2094.[Easy] Finding 3-Digit Even Numbers */
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class May12Problem2094Finding3DigitEvenNumbers {
     public static void main(String[] args) {
         
