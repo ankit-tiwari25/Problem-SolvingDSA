@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May12Problem2094Finding3DigitEvenNumbers",
+            "request": "launch",
+            "mainClass": "May12Problem2094Finding3DigitEvenNumbers",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May7Problem3341FindMinimumTimetoReachLastRoomI",
             "request": "launch",
             "mainClass": "May2025.May7Problem3341FindMinimumTimetoReachLastRoomI",

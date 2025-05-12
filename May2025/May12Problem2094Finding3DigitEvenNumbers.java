@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class May12Problem2094Finding3DigitEvenNumbers {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         int[] digits = {2,2,8,8,2};
         System.out.println(findEvenNumbers(digits));
     }
