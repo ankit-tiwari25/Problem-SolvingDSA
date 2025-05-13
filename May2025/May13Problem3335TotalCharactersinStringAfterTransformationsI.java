@@ -3,7 +3,7 @@ public class May13Problem3335TotalCharactersinStringAfterTransformationsI {
     public static void main(String[] args) {
         
     }
-    public int lengthAfterTransformations(String s, int t) {
+    public static int lengthAfterTransformations(String s, int t) {
     int[] freq = new int[26];
     for (char c : s.toCharArray()) freq[c-'a']++;
     while (t-- > 0) {
