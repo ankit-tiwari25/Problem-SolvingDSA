@@ -5,6 +5,7 @@ public class May13Problem3335TotalCharactersinStringAfterTransformationsI {
     public static void main(String[] args) {
         String s = "abcyy";
         int t = 2;
+        System.out.println(lengthAfterTransformations(s, t));
     }
     public static int lengthAfterTransformations(String s, int t) {
     int[] freq = new int[26];
