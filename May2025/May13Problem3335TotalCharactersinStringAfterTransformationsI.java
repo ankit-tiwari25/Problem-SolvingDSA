@@ -1,5 +1,7 @@
 /* 3335.[Medium] Total Characters in String After Transformations I */
 public class May13Problem3335TotalCharactersinStringAfterTransformationsI {
+         private static final int MOD = 1_000_000_007;
+
     public static void main(String[] args) {
         
     }

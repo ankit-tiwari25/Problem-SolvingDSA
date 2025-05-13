@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May13Problem3335TotalCharactersinStringAfterTransformationsI",
+            "request": "launch",
+            "mainClass": "May13Problem3335TotalCharactersinStringAfterTransformationsI",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May12Problem2094Finding3DigitEvenNumbers",
             "request": "launch",
             "mainClass": "May12Problem2094Finding3DigitEvenNumbers",
