@@ -3,7 +3,8 @@ public class May13Problem3335TotalCharactersinStringAfterTransformationsI {
          private static final int MOD = 1_000_000_007;
 
     public static void main(String[] args) {
-        
+        String s = "abcyy";
+        int t = 2;
     }
     public static int lengthAfterTransformations(String s, int t) {
     int[] freq = new int[26];
