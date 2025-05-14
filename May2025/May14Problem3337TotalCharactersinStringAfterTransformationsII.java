@@ -1,5 +1,6 @@
 /* 3337.[Hard] Total Characters in String After Transformations II */
 
+import java.util.Arrays;
 import java.util.List;
 
 public class May14Problem3337TotalCharactersinStringAfterTransformationsII {
@@ -7,8 +8,10 @@ public class May14Problem3337TotalCharactersinStringAfterTransformationsII {
      public static void main(String[] args) {
        String s = "abcyy";
        int t = 2;
-       int[] nums = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2};
-       
+       Integer[] nums = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2};
+       List<Integer> num = Arrays.asList(nums);
+       System.out.println(lengthAfterTransformations(s, t, num));
+
      }
       private static long[][] multiplyMatrices(long[][] A, long[][] B) {
         int rowsA = A.length, colsA = A[0].length, colsB = B[0].length;
