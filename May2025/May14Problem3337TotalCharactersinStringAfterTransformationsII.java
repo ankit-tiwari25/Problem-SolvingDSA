@@ -15,4 +15,16 @@ public class May14Problem3337TotalCharactersinStringAfterTransformationsII {
         }
         return result;
     }
+    private static long[][] powerMatrix(long[][] matrix, long exponent) {
+        int n = matrix.length;
+        long[][] result = new long[n][n];
+        for (int i = 0; i < n; i++) result[i][i] = 1;
+        while (exponent > 0) {
+            if ((exponent & 1) == 1) result = multiplyMatrices(result, matrix);
+            matrix = multiplyMatrices(matrix, matrix);
+            exponent >>= 1;
+        }
+        return result;
+    }
+
 }
