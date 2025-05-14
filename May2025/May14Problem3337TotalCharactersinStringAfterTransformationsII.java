@@ -5,7 +5,10 @@ import java.util.List;
 public class May14Problem3337TotalCharactersinStringAfterTransformationsII {
      private static final int mod = 1000000007;
      public static void main(String[] args) {
-        
+       String s = "abcyy";
+       int t = 2;
+       int[] nums = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2};
+       
      }
       private static long[][] multiplyMatrices(long[][] A, long[][] B) {
         int rowsA = A.length, colsA = A[0].length, colsB = B[0].length;
