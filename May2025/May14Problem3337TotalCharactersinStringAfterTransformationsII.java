@@ -1,4 +1,7 @@
 /* 3337.[Hard] Total Characters in String After Transformations II */
+
+import java.util.List;
+
 public class May14Problem3337TotalCharactersinStringAfterTransformationsII {
      private static final int mod = 1000000007;
       private static long[][] multiplyMatrices(long[][] A, long[][] B) {
@@ -25,6 +28,25 @@ public class May14Problem3337TotalCharactersinStringAfterTransformationsII {
             exponent >>= 1;
         }
         return result;
+    }
+     public static int lengthAfterTransformations(String s, int t, List<Integer> nums) {
+        long[][] transform = new long[26][26];
+        for (int i = 0; i < 26; i++) {
+            for (int shift = 0; shift < nums.get(i); shift++) {
+                transform[i][(i + 1 + shift) % 26]++;
+            }
+        }
+        transform = powerMatrix(transform, t);
+        long[][] freq = new long[1][26];
+        for (char ch : s.toCharArray()) {
+            freq[0][ch - 'a']++;
+        }
+        freq = multiplyMatrices(freq, transform);
+        long total = 0;
+        for (long cnt : freq[0]) {
+            total = (total + cnt) % mod;
+        }
+        return (int)total;
     }
 
 }
