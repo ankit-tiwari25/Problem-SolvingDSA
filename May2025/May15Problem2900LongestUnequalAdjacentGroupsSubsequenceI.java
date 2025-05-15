@@ -9,7 +9,7 @@ public class May15Problem2900LongestUnequalAdjacentGroupsSubsequenceI {
         int[] groups = {0,0,1};
         System.out.println();
     }
-    public List<String> getLongestSubsequence(String[] words, int[] groups) {
+    public static  List<String> getLongestSubsequence(String[] words, int[] groups) {
          List<String> res = new ArrayList<>();
         res.add(words[0]);
         for (int i = 1; i < groups.length; ++i) {
