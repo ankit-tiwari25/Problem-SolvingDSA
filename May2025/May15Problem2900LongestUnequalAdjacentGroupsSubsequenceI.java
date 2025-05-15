@@ -7,7 +7,7 @@ public class May15Problem2900LongestUnequalAdjacentGroupsSubsequenceI {
     public static void main(String[] args) {
         String[] words = {"e","a","b"};
         int[] groups = {0,0,1};
-        System.out.println();
+        System.out.println(getLongestSubsequence(words,groups));
     }
     public static  List<String> getLongestSubsequence(String[] words, int[] groups) {
          List<String> res = new ArrayList<>();
