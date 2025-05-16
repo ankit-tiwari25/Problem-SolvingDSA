@@ -15,7 +15,7 @@ public class May16Problem2901LongestUnequalAdjacentGroupsSubsequenceII {
         return diffCount == 1;
     }
 
-    public List<String> getWordsInLongestSubsequence(String[] words, int[] groups) {
+    public static List<String> getWordsInLongestSubsequence(String[] words, int[] groups) {
         int n = groups.length;
         int[] dp = new int[n];
         int[] parent = new int[n];
