@@ -6,6 +6,9 @@ import java.util.Collections;
 import java.util.List;
 
 public class May16Problem2901LongestUnequalAdjacentGroupsSubsequenceII {
+    public static void main(String[] args) {
+        
+    }
     public static boolean differByOneChar(String word1, String word2) {
         if (word1.length() != word2.length()) return false;
         int diffCount = 0;
