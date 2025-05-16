@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May16Problem2901LongestUnequalAdjacentGroupsSubsequenceII",
+            "request": "launch",
+            "mainClass": "May16Problem2901LongestUnequalAdjacentGroupsSubsequenceII",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May14Problem3337TotalCharactersinStringAfterTransformationsII",
             "request": "launch",
             "mainClass": "May14Problem3337TotalCharactersinStringAfterTransformationsII",

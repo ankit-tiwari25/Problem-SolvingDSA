@@ -7,7 +7,11 @@ import java.util.List;
 
 public class May16Problem2901LongestUnequalAdjacentGroupsSubsequenceII {
     public static void main(String[] args) {
-        
+        String[] words = {"bab","dab","cab"};
+        int[] groups = {1,2,2};
+
+        System.out.println(getWordsInLongestSubsequence(words, groups));
+
     }
     public static boolean differByOneChar(String word1, String word2) {
         if (word1.length() != word2.length()) return false;
