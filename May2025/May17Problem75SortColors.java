@@ -2,7 +2,7 @@ public class May17Problem75SortColors {
     public static void main(String[] args) {
         
     }
-    public void sortColors(int[] nums) {
+    public static void sortColors(int[] nums) {
        int low = 0, mid = 0, high = nums.length - 1;
     while (mid <= high) {
         if (nums[mid] == 0) {
