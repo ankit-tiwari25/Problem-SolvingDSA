@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May17Problem75SortColors",
+            "request": "launch",
+            "mainClass": "May17Problem75SortColors",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May16Problem2901LongestUnequalAdjacentGroupsSubsequenceII",
             "request": "launch",
             "mainClass": "May16Problem2901LongestUnequalAdjacentGroupsSubsequenceII",
