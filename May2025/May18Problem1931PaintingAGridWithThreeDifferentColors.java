@@ -7,7 +7,7 @@ public class May18Problem1931PaintingAGridWithThreeDifferentColors {
     public static void main(String[] args) {
         
     }
-     public int colorTheGrid(int m, int n) {
+     public static int colorTheGrid(int m, int n) {
          final int mod = 1_000_000_007;
         int total = 1;
         for (int i = 0; i < m; i++) total *= 3;
