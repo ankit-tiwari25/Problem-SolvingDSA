@@ -5,7 +5,8 @@ import java.util.List;
 
 public class May18Problem1931PaintingAGridWithThreeDifferentColors {
     public static void main(String[] args) {
-        
+        int  m = 1, n = 1;
+        System.out.println(colorTheGrid(m, n));
     }
      public static int colorTheGrid(int m, int n) {
          final int mod = 1_000_000_007;
