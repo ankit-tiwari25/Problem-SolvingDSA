@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May18Problem1931PaintingAGridWithThreeDifferentColors",
+            "request": "launch",
+            "mainClass": "May18Problem1931PaintingAGridWithThreeDifferentColors",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May17Problem75SortColors",
             "request": "launch",
             "mainClass": "May17Problem75SortColors",
