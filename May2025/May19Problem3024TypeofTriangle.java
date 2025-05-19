@@ -6,7 +6,8 @@ import java.util.Set;
 
 public class May19Problem3024TypeofTriangle {
     public static void main(String[] args) {
-        
+       int[] nums = {3,3,3};
+       System.out.println(triangleType(nums)); 
     }
     public static String triangleType(int[] nums) {
        Arrays.sort(nums);
