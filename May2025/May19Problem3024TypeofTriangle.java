@@ -8,7 +8,7 @@ public class May19Problem3024TypeofTriangle {
     public static void main(String[] args) {
         
     }
-    public String triangleType(int[] nums) {
+    public static String triangleType(int[] nums) {
        Arrays.sort(nums);
         Set<Integer> set = new HashSet<>();
         for (int num : nums) set.add(num);
