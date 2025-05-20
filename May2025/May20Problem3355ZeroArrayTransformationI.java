@@ -3,7 +3,7 @@ public class May20Problem3355ZeroArrayTransformationI {
     public static void main(String[] args) {
         
     }
-     public boolean isZeroArray(int[] nums, int[][] queries) {
+     public static boolean isZeroArray(int[] nums, int[][] queries) {
           int n = nums.length;
         int[] diff = new int[n + 1];
 
