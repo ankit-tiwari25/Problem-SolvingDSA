@@ -1,7 +1,10 @@
 /* 3355.[Medium] Zero Array Transformation I */
 public class May20Problem3355ZeroArrayTransformationI {
     public static void main(String[] args) {
-        
+        int[]  nums = {1,0,1};
+        int[][] queries = {{0,2}};
+        System.out.println(isZeroArray(nums, queries));
+
     }
      public static boolean isZeroArray(int[] nums, int[][] queries) {
           int n = nums.length;
