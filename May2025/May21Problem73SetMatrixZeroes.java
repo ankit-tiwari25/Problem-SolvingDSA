@@ -27,4 +27,8 @@ public class May21Problem73SetMatrixZeroes {
                 matrix[row][0] = 0;
             }
         }
+
+        public static void display(int[][] mat){
+            
+        }
 }
