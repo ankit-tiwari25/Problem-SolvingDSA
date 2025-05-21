@@ -3,7 +3,7 @@ public class May21Problem73SetMatrixZeroes {
     public static void main(String[] args) {
         
     }
-     public void setZeroes(int[][] matrix) {
+     public static void setZeroes(int[][] matrix) {
          boolean zeroinFirstCol = false;
         for (int row = 0; row < matrix.length; row++) {
             if (matrix[row][0] == 0) zeroinFirstCol = true;
