@@ -1,7 +1,8 @@
 /* 73.[Medium] Set Matrix Zeroes */
 public class May21Problem73SetMatrixZeroes {
     public static void main(String[] args) {
-        
+        int[][] matrix = {{1,1,1},{1,0,1},{1,1,1}};
+        setZeroes(matrix);
     }
      public static void setZeroes(int[][] matrix) {
          boolean zeroinFirstCol = false;
