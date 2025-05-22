@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May22Problem3362ZeroArrayTransformationIII",
+            "request": "launch",
+            "mainClass": "May22Problem3362ZeroArrayTransformationIII",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May21Problem73SetMatrixZeroes",
             "request": "launch",
             "mainClass": "May21Problem73SetMatrixZeroes",
