@@ -26,4 +26,7 @@ public class May22Problem3362ZeroArrayTransformationIII {
         }
         return queries.length - count; 
     }
+    public static void main(String[] args) {
+        
+    }
 }
