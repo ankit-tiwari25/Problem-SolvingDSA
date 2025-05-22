@@ -27,6 +27,9 @@ public class May22Problem3362ZeroArrayTransformationIII {
         return queries.length - count; 
     }
     public static void main(String[] args) {
+        int[] nums = {2,0,2};
+        int[][] queries = {{0,2},{0,2},{1,1}};
         
+
     }
 }
