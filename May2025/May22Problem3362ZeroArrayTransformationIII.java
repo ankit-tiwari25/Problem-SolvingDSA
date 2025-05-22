@@ -29,7 +29,7 @@ public class May22Problem3362ZeroArrayTransformationIII {
     public static void main(String[] args) {
         int[] nums = {2,0,2};
         int[][] queries = {{0,2},{0,2},{1,1}};
-        
 
+        System.out.println(maxRemoval(nums, queries));
     }
 }
