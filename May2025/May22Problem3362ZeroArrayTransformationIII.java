@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class May22Problem3362ZeroArrayTransformationIII {
-    public int maxRemoval(int[] nums, int[][] queries) {
+    public static int maxRemoval(int[] nums, int[][] queries) {
          Arrays.sort(queries, (a, b) -> Integer.compare(a[0], b[0]));
         PriorityQueue<Integer> available = new PriorityQueue<>(Collections.reverseOrder());
         PriorityQueue<Integer> assigned = new PriorityQueue<>();
