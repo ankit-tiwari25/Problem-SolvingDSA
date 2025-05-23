@@ -5,6 +5,7 @@ public class May23Problem3068FindtheMaximumSumofNodeValues {
         int[] nums = {1,2,1};
         int k = 3;
         int[][] edges = {{0,1},{0,2}};
+        System.out.println(maximumValueSum(nums, k, edges));
     }
     public static long maximumValueSum(int[] nums, int k, int[][] edges) {
         long[] dp = {0, Long.MIN_VALUE};
