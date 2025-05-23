@@ -4,7 +4,7 @@ public class May23Problem3068FindtheMaximumSumofNodeValues {
     public static void main(String[] args) {
         
     }
-    public long maximumValueSum(int[] nums, int k, int[][] edges) {
+    public static long maximumValueSum(int[] nums, int k, int[][] edges) {
         long[] dp = {0, Long.MIN_VALUE};
         for (int n : nums) {
             long cnt0 = dp[0] + n, cnt1 = dp[1] + n;
