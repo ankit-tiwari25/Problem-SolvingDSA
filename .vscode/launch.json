@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May23Problem3068FindtheMaximumSumofNodeValues",
+            "request": "launch",
+            "mainClass": "May23Problem3068FindtheMaximumSumofNodeValues",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May22Problem3362ZeroArrayTransformationIII",
             "request": "launch",
             "mainClass": "May22Problem3362ZeroArrayTransformationIII",
