@@ -2,7 +2,9 @@
 /* 3068.[Hard] Find the Maximum Sum of Node Values */
 public class May23Problem3068FindtheMaximumSumofNodeValues {
     public static void main(String[] args) {
-        
+        int[] nums = {1,2,1};
+        int k = 3;
+        int[][] edges = {{0,1},{0,2}};
     }
     public static long maximumValueSum(int[] nums, int k, int[][] edges) {
         long[] dp = {0, Long.MIN_VALUE};
