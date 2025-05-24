@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May24Problem2942FindWordsContainingCharacter",
+            "request": "launch",
+            "mainClass": "May24Problem2942FindWordsContainingCharacter",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May23Problem3068FindtheMaximumSumofNodeValues",
             "request": "launch",
             "mainClass": "May23Problem3068FindtheMaximumSumofNodeValues",
