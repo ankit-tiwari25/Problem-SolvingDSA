@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TableOfN",
+            "request": "launch",
+            "mainClass": "Recursion.Retry.TableOfN",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Factorial",
             "request": "launch",
             "mainClass": "Recursion.Retry.Factorial",
