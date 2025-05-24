@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintNto1",
+            "request": "launch",
+            "mainClass": "Recursion.Retry.PrintNto1",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Print1ToN",
             "request": "launch",
             "mainClass": "Recursion.Retry.Print1ToN",
