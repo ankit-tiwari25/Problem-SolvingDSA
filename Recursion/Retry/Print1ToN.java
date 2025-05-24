@@ -8,7 +8,8 @@ public class Print1ToN {
     public static void print1toN(int n){
         /* Base condition */
         if(n == 1){
-            System.out.print(n  + " ");
+            // System.out.print(n  + " ");
+            return;
         }
         print1toN( n - 1);
         System.out.print(" " + (n-1));
