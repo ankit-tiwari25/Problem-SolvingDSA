@@ -5,7 +5,8 @@ import java.util.List;
 
 public class May24Problem2942FindWordsContainingCharacter {
     public static void main(String[] args) {
-        
+        String[]  words = {"leet","code"};
+        String x = "e";
     }
     public static List<Integer> findWordsContaining(String[] words, char x) {
         List<Integer> ans =new ArrayList<>();
