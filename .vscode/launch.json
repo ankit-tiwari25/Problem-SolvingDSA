@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Recursion.Retry.Factorial",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "PrintNRaisedToThePowerM",
             "request": "launch",
             "mainClass": "Recursion.Retry.PrintNRaisedToThePowerM",
