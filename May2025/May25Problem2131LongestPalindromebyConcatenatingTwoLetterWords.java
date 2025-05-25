@@ -5,7 +5,8 @@ import java.util.List;
 
 public class May25Problem2131LongestPalindromebyConcatenatingTwoLetterWords {
     public static void main(String[] args) {
-        
+      String[]  words = {"lc","cl","gg"};
+      System.out.println(longestPalindrome(words));
     }
      public static int longestPalindrome(String[] words) {
         int[][] freq = new int[26][26];
