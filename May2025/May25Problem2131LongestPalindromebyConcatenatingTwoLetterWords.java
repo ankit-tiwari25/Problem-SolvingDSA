@@ -7,7 +7,7 @@ public class May25Problem2131LongestPalindromebyConcatenatingTwoLetterWords {
     public static void main(String[] args) {
         
     }
-     public int longestPalindrome(String[] words) {
+     public static int longestPalindrome(String[] words) {
         int[][] freq = new int[26][26];
         List<String> sameCharWords = new ArrayList<>();
         List<String> diffCharWords = new ArrayList<>();
