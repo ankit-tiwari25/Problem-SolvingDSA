@@ -23,7 +23,7 @@ public class May26Problem1857LargestColorValueinaDirectedGraph {
         return ans == INF ? -1 : ans;
     }
 
-    private int dfs(int node, String colors,List<List<Integer>> adj,int[][] count,int[] vis) {
+    private static int dfs(int node, String colors,List<List<Integer>> adj,int[][] count,int[] vis) {
         if (vis[node] == 1)
             return INF;
         if (vis[node] == 2) {
