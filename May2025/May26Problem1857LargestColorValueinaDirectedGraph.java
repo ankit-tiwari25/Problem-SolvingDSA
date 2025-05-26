@@ -5,7 +5,7 @@ import java.util.List;
 
 public class May26Problem1857LargestColorValueinaDirectedGraph {
      private static final int INF = Integer.MAX_VALUE;
-    public int largestPathValue(String colors, int[][] edges) {
+    public static int largestPathValue(String colors, int[][] edges) {
         int n = colors.length();
         List<List<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < n; i++)
