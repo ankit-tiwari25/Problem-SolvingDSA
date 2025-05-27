@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May26Problem1857LargestColorValueinaDirectedGraph",
+            "request": "launch",
+            "mainClass": "May26Problem1857LargestColorValueinaDirectedGraph",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "TableOfN",
             "request": "launch",
             "mainClass": "Recursion.Retry.TableOfN",
