@@ -1,7 +1,8 @@
 /* 2894.[Easy] Divisible and Non-divisible Sums Difference */
 public class May27Problem2894DivisibleandNondivisibleSumsDifference {
     public static void main(String[] args) {
-        
+        int  n = 10, m = 3;
+        System.out.println(differenceOfSums(n, m));
     }
     public static  int differenceOfSums(int n, int m) {
          int num1 = 0, num2 = 0;
