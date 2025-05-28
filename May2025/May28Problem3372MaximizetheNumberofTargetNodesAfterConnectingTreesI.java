@@ -25,7 +25,7 @@ public class May28Problem3372MaximizetheNumberofTargetNodesAfterConnectingTreesI
         }
         return cnt;
     }
-     public int[] maxTargetNodes(int[][] edges1, int[][] edges2, int k) {
+     public static int[] maxTargetNodes(int[][] edges1, int[][] edges2, int k) {
         List<List<Integer>> adj1 = buildList(edges1);
         List<List<Integer>> adj2 = buildList(edges2);
         int m = adj2.size(), maxiB = 0;
