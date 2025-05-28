@@ -25,4 +25,18 @@ public class May28Problem3372MaximizetheNumberofTargetNodesAfterConnectingTreesI
         }
         return cnt;
     }
+     public int[] maxTargetNodes(int[][] edges1, int[][] edges2, int k) {
+        List<List<Integer>> adj1 = buildList(edges1);
+        List<List<Integer>> adj2 = buildList(edges2);
+        int m = adj2.size(), maxiB = 0;
+        for (int i = 0; i < m; i++) {
+            maxiB = Math.max(maxiB, dfs(adj2, i, -1, k - 1));
+        }
+        int n = adj1.size();
+        int[] res = new int[n];
+        for (int i = 0; i < n; i++) {
+            res[i] = dfs(adj1, i, -1, k) + maxiB;
+        }
+        return res;
+    }
 }
