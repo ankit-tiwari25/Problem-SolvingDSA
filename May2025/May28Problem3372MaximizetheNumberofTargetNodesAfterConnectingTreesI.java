@@ -7,7 +7,6 @@ public class May28Problem3372MaximizetheNumberofTargetNodesAfterConnectingTreesI
     public static void main(String[] args) {
         int[][]  edges1 = {{0,1},{0,2},{2,3},{2,4}}, edges2 = {{0,1},{0,2},{0,3},{2,7},{1,4},{4,5},{4,6}};
         int k = 2;
-        
     }
      private static List<List<Integer>> buildList(int[][] edges) {
         int n = edges.length + 1;
@@ -40,5 +39,11 @@ public class May28Problem3372MaximizetheNumberofTargetNodesAfterConnectingTreesI
             res[i] = dfs(adj1, i, -1, k) + maxiB;
         }
         return res;
+    }
+    public static void display(int[] arr){
+        for(int i : arr){
+            System.out.print(" " + i);
+        }
+        System.out.println();
     }
 }
