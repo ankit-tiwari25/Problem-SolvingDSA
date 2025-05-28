@@ -7,7 +7,7 @@ public class May28Problem3372MaximizetheNumberofTargetNodesAfterConnectingTreesI
     public static void main(String[] args) {
         
     }
-     private List<List<Integer>> buildList(int[][] edges) {
+     private static List<List<Integer>> buildList(int[][] edges) {
         int n = edges.length + 1;
         List<List<Integer>> adj = new ArrayList<>(n);
         for (int i = 0; i < n; i++) adj.add(new ArrayList<>());
