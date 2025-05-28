@@ -7,6 +7,7 @@ public class May28Problem3372MaximizetheNumberofTargetNodesAfterConnectingTreesI
     public static void main(String[] args) {
         int[][]  edges1 = {{0,1},{0,2},{2,3},{2,4}}, edges2 = {{0,1},{0,2},{0,3},{2,7},{1,4},{4,5},{4,6}};
         int k = 2;
+        display(maxTargetNodes(edges1, edges2, k));
     }
      private static List<List<Integer>> buildList(int[][] edges) {
         int n = edges.length + 1;
