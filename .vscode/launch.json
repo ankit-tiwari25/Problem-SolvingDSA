@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May28Problem3372MaximizetheNumberofTargetNodesAfterConnectingTreesI",
+            "request": "launch",
+            "mainClass": "May28Problem3372MaximizetheNumberofTargetNodesAfterConnectingTreesI",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May26Problem1857LargestColorValueinaDirectedGraph",
             "request": "launch",
             "mainClass": "May26Problem1857LargestColorValueinaDirectedGraph",
