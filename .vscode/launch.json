@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "May29Problem3373MaximizetheNumberofTargetNodesAfterConnectingTreesII",
+            "request": "launch",
+            "mainClass": "May29Problem3373MaximizetheNumberofTargetNodesAfterConnectingTreesII",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May28Problem3372MaximizetheNumberofTargetNodesAfterConnectingTreesI",
             "request": "launch",
             "mainClass": "May28Problem3372MaximizetheNumberofTargetNodesAfterConnectingTreesI",
