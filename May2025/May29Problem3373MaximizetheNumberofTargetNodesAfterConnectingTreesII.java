@@ -51,4 +51,10 @@ public class May29Problem3373MaximizetheNumberofTargetNodesAfterConnectingTreesI
             res[i] = (colorA[i] == 0 ? evenA : oddA) + maxiB;
         return res;
     }
+    public static void display(int[] arr){
+        for(int i : arr){
+            System.out.print(" " + i);
+        }
+        System.out.println();
+    }
 }
