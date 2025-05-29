@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class May29Problem3373MaximizetheNumberofTargetNodesAfterConnectingTreesII {
+    public static   int evenA, oddA, evenB, oddB;
     public static void main(String[] args) {
         
     }
