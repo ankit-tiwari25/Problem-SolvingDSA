@@ -32,7 +32,7 @@ public class May29Problem3373MaximizetheNumberofTargetNodesAfterConnectingTreesI
             dfsColor(adj, v, u, color, isA);
         }
     }
-     public int[] maxTargetNodes(int[][] edges1, int[][] edges2) {
+     public static int[] maxTargetNodes(int[][] edges1, int[][] edges2) {
         List<List<Integer>> adjA = buildList(edges1), adjB = buildList(edges2);
         int n = adjA.size(), m = adjB.size();
         int[] colorA = new int[n], colorB = new int[m];
