@@ -8,7 +8,8 @@ import java.util.List;
 public class May29Problem3373MaximizetheNumberofTargetNodesAfterConnectingTreesII {
     public static   int evenA, oddA, evenB, oddB;
     public static void main(String[] args) {
-        
+        int[][] edges1 = {{0,1},{0,2},{2,3},{2,4}}, edges2 = {{0,1},{0,2},{0,3},{2,7},{1,4},{4,5},{4,6}};
+        display();
     }
     public static List<List<Integer>> buildList(int[][] edges) {
         int n = edges.length + 1;
