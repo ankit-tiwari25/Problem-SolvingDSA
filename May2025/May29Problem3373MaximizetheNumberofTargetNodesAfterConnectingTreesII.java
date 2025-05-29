@@ -18,7 +18,7 @@ public class May29Problem3373MaximizetheNumberofTargetNodesAfterConnectingTreesI
         }
         return adj;
     }
-    void dfsColor(List<List<Integer>> adj, int u, int parent, int[] color, boolean isA) {
+    public static void dfsColor(List<List<Integer>> adj, int u, int parent, int[] color, boolean isA) {
         if (color[u] == 0) {
             if (isA) evenA++;
             else evenB++;
