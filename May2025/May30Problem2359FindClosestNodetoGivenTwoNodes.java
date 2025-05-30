@@ -6,7 +6,7 @@ public class May30Problem2359FindClosestNodetoGivenTwoNodes {
     public static void main(String[] args) {
         
     }
-     public int closestMeetingNode(int[] edges, int start1, int start2) {
+     public static int closestMeetingNode(int[] edges, int start1, int start2) {
         int res = -1, Min_Of_Max = Integer.MAX_VALUE, n = edges.length;
         int[] dist1 = new int[n], dist2 = new int[n];
         Arrays.fill(dist1, -1);
