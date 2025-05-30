@@ -24,7 +24,7 @@ public class May30Problem2359FindClosestNodetoGivenTwoNodes {
         }
         return res;
     }
-    private void dfs(int current, int distance, int[] edges, int[] distances) {
+    private static void dfs(int current, int distance, int[] edges, int[] distances) {
         while (current != -1 && distances[current] == -1) {
             distances[current] = distance++;
             current = edges[current];
