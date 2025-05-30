@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class May30Problem2359FindClosestNodetoGivenTwoNodes {
     public static void main(String[] args) {
-        
+       int[] edges = {2,2,3,-1};
+       int node1 = 0, node2 = 1;
+       System.out.println(closestMeetingNode(edges, node1, node2));
     }
      public static int closestMeetingNode(int[] edges, int start1, int start2) {
         int res = -1, Min_Of_Max = Integer.MAX_VALUE, n = edges.length;
