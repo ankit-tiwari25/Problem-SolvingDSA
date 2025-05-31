@@ -8,7 +8,7 @@ public class May31Problem909SnakesandLadders {
     public static void main(String[] args) {
         
     }
-     public int snakesAndLadders(int[][] board) {
+     public static int snakesAndLadders(int[][] board) {
           int n = board.length;
         int[] min_rolls = new int[n * n + 1];
         Arrays.fill(min_rolls, -1);
