@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jun1Problem2929DistributeCandiesAmongChildrenII",
+            "request": "launch",
+            "mainClass": "June2025Challenge.Jun1Problem2929DistributeCandiesAmongChildrenII",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "May31Problem909SnakesandLadders",
             "request": "launch",
             "mainClass": "May31Problem909SnakesandLadders",
