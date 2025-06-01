@@ -2,7 +2,8 @@ package June2025Challenge;
 /* 2929.[Medium] Distribute Candies Among Children II */
 public class Jun1Problem2929DistributeCandiesAmongChildrenII {
   public static void main(String[] args) {
-    
+    int  n = 5, limit = 2;
+    System.out.println(distributeCandies(n, limit));
   }
    public static long distributeCandies(int n, int m) {
           long res = ((long)n + 2) * (n + 1) / 2;
