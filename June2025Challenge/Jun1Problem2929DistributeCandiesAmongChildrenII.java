@@ -4,7 +4,7 @@ public class Jun1Problem2929DistributeCandiesAmongChildrenII {
   public static void main(String[] args) {
     
   }
-   public long distributeCandies(int n, int m) {
+   public static long distributeCandies(int n, int m) {
           long res = ((long)n + 2) * (n + 1) / 2;
         for (int i = 1; i <= 3; i++) {
             long rem = n - (long)i * (m + 1);
