@@ -3,6 +3,7 @@
 public class Jun2Problem135Candy {
     public static void main(String[] args) {
        int[]  ratings = {1,0,2}; 
+       System.out.println(candy(ratings));
     }
     public static int candy(int[] ratings) {
          int n = ratings.length;
