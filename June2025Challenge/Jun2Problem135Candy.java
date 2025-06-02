@@ -2,7 +2,7 @@
 /* 135.[Hard] Candy */
 public class Jun2Problem135Candy {
     public static void main(String[] args) {
-        
+       int[]  ratings = {1,0,2}; 
     }
     public static int candy(int[] ratings) {
          int n = ratings.length;
