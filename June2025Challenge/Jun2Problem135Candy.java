@@ -4,7 +4,7 @@ public class Jun2Problem135Candy {
     public static void main(String[] args) {
         
     }
-    public int candy(int[] ratings) {
+    public static int candy(int[] ratings) {
          int n = ratings.length;
         int cnt = 0;
         int[] candies = new int[n];
