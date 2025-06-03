@@ -8,7 +8,7 @@ public class Jun03Problem1298MaximumCandiesYouCanGetfromBoxes {
     public static void main(String[] args) {
         
     }
-     public int maxCandies(int[] vis, int[] candies, int[][] keys, int[][] containedBoxes, int[] initialBoxes) {
+     public static int maxCandies(int[] vis, int[] candies, int[][] keys, int[][] containedBoxes, int[] initialBoxes) {
          boolean foundOpenable = true;
         int totalCandies = 0;
         List<Integer> boxes = new ArrayList<>();
