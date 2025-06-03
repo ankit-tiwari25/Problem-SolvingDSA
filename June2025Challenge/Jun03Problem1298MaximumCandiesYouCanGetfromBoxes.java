@@ -9,6 +9,7 @@ public class Jun03Problem1298MaximumCandiesYouCanGetfromBoxes {
       int[]  vis = {1,0,1,0}, candies = {7,5,4,100};
       int[][] keys = {{},{},{1},{}}, containedBoxes = {{1,2},{3},{},{}};
       int[] initialBoxes = {0};
+      System.out.println(maxCandies(vis, candies, keys, containedBoxes, initialBoxes));
     }
      public static int maxCandies(int[] vis, int[] candies, int[][] keys, int[][] containedBoxes, int[] initialBoxes) {
          boolean foundOpenable = true;
