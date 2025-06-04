@@ -3,7 +3,8 @@ package June2025Challenge;
 /* 3403.[Medium] Find the Lexicographically Largest String From the Box I */
 public class Jun04Problem3403FindtheLexicographicallyLargestStringFromtheBoxI {
     public static void main(String[] args) {
-        
+        String word = "dbca";
+        int numFriends = 2;
     }
     public static String answerString(String word, int numFriends) {
        if (numFriends == 1) return word;
