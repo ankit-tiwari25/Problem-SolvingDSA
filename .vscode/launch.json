@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jun04Problem3403FindtheLexicographicallyLargestStringFromtheBoxI",
+            "request": "launch",
+            "mainClass": "June2025Challenge.Jun04Problem3403FindtheLexicographicallyLargestStringFromtheBoxI",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jun03Problem1298MaximumCandiesYouCanGetfromBoxes",
             "request": "launch",
             "mainClass": "Jun03Problem1298MaximumCandiesYouCanGetfromBoxes",
