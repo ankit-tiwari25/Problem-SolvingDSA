@@ -5,6 +5,7 @@ public class Jun04Problem3403FindtheLexicographicallyLargestStringFromtheBoxI {
     public static void main(String[] args) {
         String word = "dbca";
         int numFriends = 2;
+        System.out.println(answerString(word, numFriends));
     }
     public static String answerString(String word, int numFriends) {
        if (numFriends == 1) return word;
