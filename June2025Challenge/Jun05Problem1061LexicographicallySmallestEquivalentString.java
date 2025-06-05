@@ -8,7 +8,8 @@ import java.util.Map;
 /* 1061.[Medium] Lexicographically Smallest Equivalent String */
 public class Jun05Problem1061LexicographicallySmallestEquivalentString {
     public static void main(String[] args) {
-        
+        String  s1 = "parker", s2 = "morris", baseStr = "parser";
+        System.out.println(smallestEquivalentString(s1, s2, baseStr));
     }
      public static String smallestEquivalentString(String s1, String s2, String baseStr) {
         Map<Character, List<Character>> adj = new HashMap<>();
