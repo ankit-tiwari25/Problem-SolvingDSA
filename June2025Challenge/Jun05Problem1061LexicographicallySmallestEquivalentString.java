@@ -33,4 +33,19 @@ public class Jun05Problem1061LexicographicallySmallestEquivalentString {
 
         return result.toString();
     }
+     private char dfs(Map<Character, List<Character>> adj, char ch, boolean[] visited) {
+        visited[ch - 'a'] = true;
+        char minChar = ch;
+
+        for (char neighbor : adj.getOrDefault(ch, new ArrayList<>())) {
+            if (!visited[neighbor - 'a']) {
+                char candidate = dfs(adj, neighbor, visited);
+                if (candidate < minChar) {
+                    minChar = candidate;
+                }
+            }
+        }
+
+        return minChar;
+    }
 }
