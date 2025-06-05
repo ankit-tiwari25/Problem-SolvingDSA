@@ -33,7 +33,7 @@ public class Jun05Problem1061LexicographicallySmallestEquivalentString {
 
         return result.toString();
     }
-     private char dfs(Map<Character, List<Character>> adj, char ch, boolean[] visited) {
+     private static char dfs(Map<Character, List<Character>> adj, char ch, boolean[] visited) {
         visited[ch - 'a'] = true;
         char minChar = ch;
 
