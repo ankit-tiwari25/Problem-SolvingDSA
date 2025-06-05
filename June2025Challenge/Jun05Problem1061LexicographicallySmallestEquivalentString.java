@@ -10,7 +10,7 @@ public class Jun05Problem1061LexicographicallySmallestEquivalentString {
     public static void main(String[] args) {
         
     }
-     public String smallestEquivalentString(String s1, String s2, String baseStr) {
+     public static String smallestEquivalentString(String s1, String s2, String baseStr) {
         Map<Character, List<Character>> adj = new HashMap<>();
         int n = s1.length();
 
