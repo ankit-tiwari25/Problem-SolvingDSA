@@ -35,4 +35,12 @@ public class Jun06Problem2434UsingaRobottoPrinttheLexicographicallySmallestStrin
 
         return t.toString();
     }
+     private char smallestChar(int[] freq) {
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] > 0) {
+                return (char) ('a' + i);
+            }
+        }
+        return 'a';
+    }
 }
