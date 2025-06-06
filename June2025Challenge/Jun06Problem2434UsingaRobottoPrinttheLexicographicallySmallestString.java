@@ -7,7 +7,7 @@ public class Jun06Problem2434UsingaRobottoPrinttheLexicographicallySmallestStrin
     public static void main(String[] args) {
         
     }
-     public String robotWithString(String s) {
+     public static String robotWithString(String s) {
         Stack<Character> stack = new Stack<>();
         int[] freq = new int[26];
         
