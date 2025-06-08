@@ -8,7 +8,7 @@ public class Jun08Problem386LexicographicalNumbers {
     public static void main(String[] args) {
         
     }
-    public List<Integer> lexicalOrder(int n) {
+    public static List<Integer> lexicalOrder(int n) {
           List<Integer> ans = new ArrayList<>();
         for (int i = 1; i <= n; i++) {
             ans.add(i);
