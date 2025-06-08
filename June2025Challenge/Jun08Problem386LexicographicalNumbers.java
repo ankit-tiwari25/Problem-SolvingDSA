@@ -6,7 +6,8 @@ import java.util.List;
 /* 386.[Medium] Lexicographical Numbers */
 public class Jun08Problem386LexicographicalNumbers {
     public static void main(String[] args) {
-        
+        int n = 13;
+        System.out.println(lexicalOrder(n));
     }
     public static List<Integer> lexicalOrder(int n) {
           List<Integer> ans = new ArrayList<>();
