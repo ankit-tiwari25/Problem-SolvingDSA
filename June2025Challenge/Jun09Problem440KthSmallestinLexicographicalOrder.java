@@ -22,4 +22,11 @@ public class Jun09Problem440KthSmallestinLexicographicalOrder {
 
         return -1;
     }
+    static long numOfChildren(long current, long neighbour, long n) {
+        if (neighbour > n) {
+            if (current > n) return 0;
+            return n - current + 1;
+        }
+        return neighbour - current + numOfChildren(current * 10, neighbour * 10, n);
+    }
 }
