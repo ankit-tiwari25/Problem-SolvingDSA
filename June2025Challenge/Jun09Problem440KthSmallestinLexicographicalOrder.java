@@ -3,7 +3,7 @@ package June2025Challenge;
 public class Jun09Problem440KthSmallestinLexicographicalOrder {
     public static void main(String[] args) {
         int  n = 13, k = 2;
-        
+        System.out.println(findKthNumber(n, k));
     }
     static public int findKthNumber(int n, int K) {
         long k = K;
