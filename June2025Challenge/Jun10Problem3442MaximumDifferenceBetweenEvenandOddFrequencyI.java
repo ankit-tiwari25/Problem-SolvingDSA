@@ -4,7 +4,7 @@ public class Jun10Problem3442MaximumDifferenceBetweenEvenandOddFrequencyI {
     public static void main(String[] args) {
         
     }
-    public int maxDifference(String s) {
+    public static int maxDifference(String s) {
         int[] mpp = new int[26];
         int maxi = 0, mini = s.length();
         for (char c : s.toCharArray()) {
