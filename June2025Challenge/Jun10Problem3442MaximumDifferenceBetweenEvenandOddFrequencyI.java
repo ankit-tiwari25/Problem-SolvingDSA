@@ -2,7 +2,8 @@
 /* 3442.[Easy] Maximum Difference Between Even and Odd Frequency I */
 public class Jun10Problem3442MaximumDifferenceBetweenEvenandOddFrequencyI {
     public static void main(String[] args) {
-        
+        String s = "aaaaabbc";
+        System.out.println(maxDifference(s));
     }
     public static int maxDifference(String s) {
         int[] mpp = new int[26];
