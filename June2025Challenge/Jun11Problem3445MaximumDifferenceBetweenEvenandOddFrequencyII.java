@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class Jun11Problem3445MaximumDifferenceBetweenEvenandOddFrequencyII {
     public static void main(String[] args) {
-        
+      String  s = "12233";
+      int k = 4;
+      System.out.println(maxDifference(s, k));
     }
     /**
      * Helper function to calculate the 2-bit parity state.
