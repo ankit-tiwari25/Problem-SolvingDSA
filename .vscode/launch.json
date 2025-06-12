@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortAnArray",
+            "request": "launch",
+            "mainClass": "Recursion.Retry.SortAnArray",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "Jun09Problem440KthSmallestinLexicographicalOrder",
             "request": "launch",
             "mainClass": "June2025Challenge.Jun09Problem440KthSmallestinLexicographicalOrder",
