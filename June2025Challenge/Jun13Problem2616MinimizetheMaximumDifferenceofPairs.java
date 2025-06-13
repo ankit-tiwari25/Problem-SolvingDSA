@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class Jun13Problem2616MinimizetheMaximumDifferenceofPairs {
     public static void main(String[] args) {
-        
+       int[] nums = {10,1,2,7,1,3};
+       int p = 2; 
+       System.out.println(minimizeMax(nums, p));
     }
      public static int minimizeMax(int[] nums, int p) {
        if (p == 0) return 0;
