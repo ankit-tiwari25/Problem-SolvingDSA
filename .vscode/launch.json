@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Jun13Problem2616MinimizetheMaximumDifferenceofPairs",
+            "request": "launch",
+            "mainClass": "Jun13Problem2616MinimizetheMaximumDifferenceofPairs",
+            "projectName": "Problem Solving_262068e2"
+        },
+        {
+            "type": "java",
             "name": "SortAnArray",
             "request": "launch",
             "mainClass": "Recursion.Retry.SortAnArray",
