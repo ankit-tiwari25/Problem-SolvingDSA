@@ -6,7 +6,7 @@ public class Jun13Problem2616MinimizetheMaximumDifferenceofPairs {
     public static void main(String[] args) {
         
     }
-     public int minimizeMax(int[] nums, int p) {
+     public static int minimizeMax(int[] nums, int p) {
        if (p == 0) return 0;
         Arrays.sort(nums);
         int n = nums.length, left = 0, right = nums[n-1] - nums[0];
