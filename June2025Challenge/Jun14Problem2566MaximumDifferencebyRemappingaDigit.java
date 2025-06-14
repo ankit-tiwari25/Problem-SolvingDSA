@@ -1,7 +1,8 @@
 /* 2566.[Easy] Maximum Difference by Remapping a Digit */
 public class Jun14Problem2566MaximumDifferencebyRemappingaDigit {
    public static void main(String[] args) {
-    
+    int num = 11891;
+    System.out.println(minMaxDifference(num));
    } 
    public static int minMaxDifference(int num) {
           String str = Integer.toString(num);
