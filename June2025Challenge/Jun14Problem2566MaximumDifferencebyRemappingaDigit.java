@@ -3,7 +3,7 @@ public class Jun14Problem2566MaximumDifferencebyRemappingaDigit {
    public static void main(String[] args) {
     
    } 
-   public int minMaxDifference(int num) {
+   public static int minMaxDifference(int num) {
           String str = Integer.toString(num);
         char[] maxChars = str.toCharArray();
         char[] minChars = str.toCharArray();
